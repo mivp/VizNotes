@@ -32,14 +32,14 @@ We have the video games industry to thank for the fast acceleration and widespre
 We are still working with 2D images as the final output, all our displays are flat 2D planes:
  - 3D Vis requires translation to 2D Image from particular viewpoint from an infinite number of possible views and is impossible to encapsulate in a single image.
 This is one reason why research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods! There is increasing demand for interactive 3D in publication and it is changing: https://peerj.com/articles/355/#3Dvisualisation http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra
-(NOTE: FigShare supports 3D models with inline WebGL viewer)
+(NOTE: FigShare also supports 3D models with inline WebGL viewer)
 
 One way to think about visualisations is to classify them into "realistic" and "abstract" plots.
  - In 2D the most basic realistic plot is a photograph, but also simpler cartoon style drawings, maps for example - basically, attempting to convey an image like one would expect to see with one's eyes. In 3D this type of plot attempts to construct a realistic 3D world / view and is by far the more heavily used technique.
  - Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is more heavily used in 2D, but you can still do this in 3D of course, the simplest example being a scatter plot on 3 axes. Most of what people think of as data visualisation, including interactive 2D plots falls into this category.
  - These two types of representation are often combined to good effect! For example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract).
 
-In 3D, especially VR you usually want to create at least a baseline world to plot your abstract data, such as a room or event just a ground plane, so people viewing can orient themselves. Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
+In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves. Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
 
 ### Why visualise in 3D?
 Some good reasons you might want to use 3D visuals:
@@ -54,6 +54,8 @@ Some good reasons you might want to use 3D visuals:
 VR can be used to interrogate data spatially and find features using our inherent ability to explore 3D spaces using visual sensory information.
 As an extension of 3D visualisation, it can further increase the impact and absorption of information into memory.  ("People recall information better through virtual reality" https://www.sciencedaily.com/releases/2018/06/180613162613.htm)
 VR environments can also be used to research how people react to simulated environments or situations (see: Psychology Researchers at King's College https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx).
+
+
 
 ### Equipment Overview
 - Room scale facilities : CAVE2 and other CAVE like systems - these provide an immersive VR experience in a room like environment, but are expensive to build and run and usually only available at research facilities.
@@ -134,5 +136,5 @@ Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODIyNTc5Myw3MTA3NjkwNTldfQ==
+eyJoaXN0b3J5IjpbNzMxMjcwNDI3LDcxMDc2OTA1OV19
 -->
