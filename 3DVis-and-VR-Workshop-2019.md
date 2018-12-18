@@ -1,13 +1,6 @@
 
 # 3D and Virtual Reality data visualisation for researchers
 ## Workshop Content
-~5min         - Introduction and brief overview of VR in research (Monash and broader).
-~5min         - Overview of equipment.
-~5min         - Overview of common software/applications.
-~5min         - Maximising the use of VR - When to potentially use VR (and when not to?).
-~10min     - Overview of process with sample data set - Data to visualisation using VR.
-~5min         - Demonstrate sample data set in VR.
-~20min     - Participants pair up and take turns interacting with samples
 
 ### Intro:
 #### Data Visualisation - 3D visualisation - Virtual Reality
@@ -141,5 +134,5 @@ Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwNzY5MDU5XX0=
+eyJoaXN0b3J5IjpbLTcyNzA4MDQ3LDcxMDc2OTA1OV19
 -->
