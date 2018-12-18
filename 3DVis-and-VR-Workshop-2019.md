@@ -94,7 +94,7 @@ Run down of Oculus controllers etc ?
 3) Develop content using a framework that supports VR such as A-Frame, Unity3D, UnrealEngine
  - This is more likely to be done by a programmer who specialises in 3D graphics but these frameworks are getting easier to learn if you are interested and have the time to get really into it! A-Frame in particular is targeted at anyone who knows some basic web programming.
 
-## Loading 3D data into visualisat tools
+## Using Previs for visualising 3D data:
 
 ### What data can we use and how do we visualise it?
 
@@ -140,5 +140,5 @@ These can all be combined to create more complex visualisations
 - Volume data? (TODO: No demo ready yet, perhaps use LavaVu in final version?)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgwMjc2MDcsNzEwNzY5MDU5XX0=
+eyJoaXN0b3J5IjpbMTMwODgwMDgzNSw3MTA3NjkwNTldfQ==
 -->
