@@ -26,7 +26,7 @@ Just like in industry, research data is increasing rapidly in volume, velocity, 
 
 (Data processing loop image)
 
-By applying statistical and other processing to data t
+By applying statistical and other processing to data we can draw conclusions from it, in order to understand the results of these analyses they must be able to be processed by the brain, just looking at raw numbers is not very helpful when we deal with multi-dimensional data.
 
 ### At Monash?
 At the Monash Immersive Visualisation Platform (MIVP) https://www.monash.edu/researchinfrastructure/mivp we are more oriented to the 3D vis and scientific vis side of things, but expanding our reach.
@@ -153,6 +153,6 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDIwNjYxODQsLTk5MTEwNjM4OSwxOD
-M4OTgxNzMwXX0=
+eyJoaXN0b3J5IjpbLTczNTY2Mzg5MiwtOTkxMTA2Mzg5LDE4Mz
+g5ODE3MzBdfQ==
 -->
