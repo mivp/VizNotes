@@ -133,15 +133,13 @@ There are further common data types we can plot too.
 These can all be combined to create more complex visualisations
 
 ## Demonstrations
-Previs
-[https://mivp-dws1.erc.monash.edu:3000/](https://mivp-dws1.erc.monash.edu:3000/)
-
+[Previs](https://mivp-dws1.erc.monash.edu:3000/)
 - Point cloud data - from spreadsheet?
 - Mesh model - kookaburra
-
-- Volume data? (TODO: No demo ready yet, perhaps use LavaVu?)
+[LavaVu](https://github.com/okaluza/lavavu)
+- Volume data? (TODO: No demo ready yet)
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjkyNTYwOCw3MTA3NjkwNTldfQ==
+eyJoaXN0b3J5IjpbMTgzODk4MTczMCw3MTA3NjkwNTldfQ==
 -->
