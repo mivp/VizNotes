@@ -55,7 +55,7 @@ VR can be used to interrogate data spatially and find features using our inheren
 As an extension of 3D visualisation, it can further increase the impact and absorption of information into memory.  ("People recall information better through virtual reality" https://www.sciencedaily.com/releases/2018/06/180613162613.htm)
 VR environments can also be used to research how people react to simulated environments or situations (see: Psychology Researchers at King's College https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx).
 
-Creating really
+Creating really compelling VR experiences requires more work than just getting your data up on the screens, the interactions must be designed to work in the VR environment,.
 
 ### Equipment Overview
 - Room scale facilities : CAVE2 and other CAVE like systems - these provide an immersive VR experience in a room like environment, but are expensive to build and run and usually only available at research facilities.
@@ -136,5 +136,5 @@ Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTg3ODQwNSwtMzM4MjI1NzkzXX0=
+eyJoaXN0b3J5IjpbLTg2Nzg1NDAxNCwtMzM4MjI1NzkzXX0=
 -->
