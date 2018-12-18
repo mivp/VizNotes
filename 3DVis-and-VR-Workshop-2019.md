@@ -21,6 +21,8 @@ PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 - 3D visualisation is a subset of data visualisation with a long history of use in science for visualising computational research data
 - Virtual reality technology is a new way of engaging with these kinds of visual datasets for both analysis of data and outreach and communication of research data results
 
+Just like in industry, research data is increasing rapidly in volume, velocity and variety, many researchers now have "big data" problems. Visualisation is one aspect of data science that can help comprehend even 
+
 ### At Monash?
 At the Monash Immersive Visualisation Platform (MIVP) https://www.monash.edu/researchinfrastructure/mivp we are more oriented to the 3D vis and scientific vis side of things, but expanding our reach.
 We maintain a number of high end visualisation facilities, including VR (headset and the room-scale CAVE2).
@@ -142,6 +144,6 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTAzMjY5MSwtOTkxMTA2Mzg5LDE4Mz
+eyJoaXN0b3J5IjpbMTcwMTk3NDg2NiwtOTkxMTA2Mzg5LDE4Mz
 g5ODE3MzBdfQ==
 -->
