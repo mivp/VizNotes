@@ -16,7 +16,7 @@ Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 ## Intro:
-#### Data Visualisation - 3D visualisation - Virtual Reality
+### Definitions: Data Visualisation - 3D visualisation - Virtual Reality
 - Data visualisation is a broader topic with increasing relevance to all research, and ties in particularly with the increased application of data science and machine learning to research data
 - 3D visualisation is a subset of data visualisation with a long history of use in science for visualising computational research data
 - Virtual reality technology is a new way of engaging with these kinds of visual datasets for both analysis of data and outreach and communication of research data results
@@ -31,7 +31,7 @@ Mostly based at the Caulfield campus, they have a lot of VR equipment and resear
 
 TODO: Examples of Vis & VR projects...at Monash and elsewhere... VR in research
 
-## What is 3D visualisation?
+## About 3D visualisation
 
 3D vis, or scientific visualisation is a subset of Data Visualisation - the communication of data by visual means.
 I'm mostly going to talk about 3D Visualisation as this is a set of techniques that allows us to produce 3D renderings that can be used on both desktops, handhelds and virtual reality headsets.
@@ -136,5 +136,5 @@ These can all be combined to create more complex visualisations
 - Volume data? (TODO: No demo ready yet, perhaps use LavaVu in final version?)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODgzNzEyOTMsNzEwNzY5MDU5XX0=
+eyJoaXN0b3J5IjpbLTEzNzMzMTc2NTAsNzEwNzY5MDU5XX0=
 -->
