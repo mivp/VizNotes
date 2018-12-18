@@ -54,7 +54,7 @@ One way to think about visualisations is to classify them into "realistic" and "
 
 In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves. Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
 
-### Why visualise in 3D?
+### Reasons we might want to visualise in 3D?
 Some good reasons you might want to use 3D visuals:
  - The data is inherently 3D (eg: 3D models, scans, geospatial data that includes the height axis)
  - The data is abstract and difficult to condense to 2D or comprehend with a 2D plot
@@ -136,10 +136,11 @@ These can all be combined to create more complex visualisations
 [Previs](https://mivp-dws1.erc.monash.edu:3000/)
 - Point cloud data - from spreadsheet?
 - Mesh model - kookaburra
+
 [LavaVu](https://github.com/okaluza/lavavu)
 - Volume data? (TODO: No demo ready yet)
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODk4MTczMF19
+eyJoaXN0b3J5IjpbLTk5MTEwNjM4OSwxODM4OTgxNzMwXX0=
 -->
