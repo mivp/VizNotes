@@ -31,7 +31,7 @@ Mostly based at the Caulfield campus, they have a lot of VR equipment and resear
 
 TODO: Examples of Vis & VR projects...at Monash and elsewhere... VR in research
 
-## About 3D visualisation
+## Why 3D visualisation?
 
 3D vis, or scientific visualisation is a subset of Data Visualisation - the communication of data by visual means.
 I'm mostly going to talk about 3D Visualisation as this is a set of techniques that allows us to produce 3D renderings that can be used on both desktops, handhelds and virtual reality headsets.
@@ -59,8 +59,10 @@ Some good reasons you might want to use 3D visuals:
  - The data is inherently 3D (eg: 3D models, scans, geospatial data that includes the height axis)
  - The data is abstract and difficult to condense to 2D or comprehend with a 2D plot
  - The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations
- - For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images
-.
+ - For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images.
+
+
+
 ### Why/when to use Virtual Reality in particular?
  - Where Immersion in data and 360 view is more useful than an overview
  - When interaction with visualised data/objects using VR controls would be more intuitive than point & click / keyboard / touchscreen
@@ -136,5 +138,5 @@ These can all be combined to create more complex visualisations
 - Volume data? (TODO: No demo ready yet, perhaps use LavaVu in final version?)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzMzMTc2NTAsLTMzODIyNTc5M119
+eyJoaXN0b3J5IjpbLTc3NzIwMDkwNiwtMzM4MjI1NzkzXX0=
 -->
