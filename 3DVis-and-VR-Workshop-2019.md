@@ -26,13 +26,19 @@ Just like in industry, research data is increasing rapidly in volume, velocity, 
 
 (Data processing loop image)
 
+By applying statistical and other processing to data t
+
 ### At Monash?
 At the Monash Immersive Visualisation Platform (MIVP) https://www.monash.edu/researchinfrastructure/mivp we are more oriented to the 3D vis and scientific vis side of things, but expanding our reach.
 We maintain a number of high end visualisation facilities, including VR (headset and the room-scale CAVE2).
 We also provide services creating 3D visualisations for researchers, from helping to create tools to analyse data visually to generating compelling visualisations for outreach and publication.
 
+(Some Monash vis projects - MIVP)
+
 The Faculty of IT is also heavily involved in visualisation and virtual reality, in various fields including data science research and the Human-Computer Interaction, Immersive Analytics (https://ialab.it.monash.edu/) and SensiLab (https://sensilab.monash.edu/) research groups.
 Mostly based at the Caulfield campus, they have a lot of VR equipment and research projects across IT and the Arts 
+
+(Some Monash vis projects - FIT)
 
 TODO: Examples of Vis & VR projects...at Monash and elsewhere... VR in research
 
@@ -147,6 +153,6 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjMwNzA5NiwtOTkxMTA2Mzg5LDE4Mz
-g5ODE3MzBdfQ==
+eyJoaXN0b3J5IjpbLTIwNDIwNjYxODQsLTk5MTEwNjM4OSwxOD
+M4OTgxNzMwXX0=
 -->
