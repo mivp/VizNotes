@@ -64,7 +64,7 @@ Run down of Oculus controllers etc ?
 ### How to create a 3D visualisation from data (and possibly view it in a VR device):
 
 1) Use a visualisation library or tool that can create 3D plots or models - these usually create abstract plots of data or are tools designed for scientific visualisation work.
- - Libraries usually work within a given programming environment (Matlab, Python, R, Web))
+ - Libraries usually work within a given programming environment (Matlab, Python, R, Web)
    (Matplotlib, D3, Plotly, LavaVu)
 - Desktop applications designed for visualisation provide an all-in-one environment (ParaView, VisIt, Drishti)
 - Currently many of these 3D plotting tools do not produce output for VR, they are for desktop or handheld device viewing only.
@@ -84,7 +84,7 @@ Run down of Oculus controllers etc ?
 The easiest way to generate VR headset content is to film using a 360 camera, if you have access to one of these you can create realistic visualisations in 3D and VR of any real location.
 Of course there is no interactive control of the path, it's a passive experience with some interaction giving control of the viewpoint direction only.
 
-But, if we want to plot abstract / non-video data that can be interacted with in more dimensions, to walk through, for example - then we need to create a 3D visualisation first...
+But, if we want to view data that can be interacted with in more dimensions, to walk through, for example - then we need to create a 3D visualisation first...
 
 #### How to render a 3D scene: Turning a dataset into a 3D object
 
@@ -129,10 +129,10 @@ How do I do it with my data?
 Access to VR equipment? Library, MIVP, FIT @ Caulfield
 Links to software / tools / videos
 Links to example datasets
-Target audience ?
+Define target audience ? Researchers new to visualisation with limited  
 Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzA4MDQ3LDcxMDc2OTA1OV19
+eyJoaXN0b3J5IjpbMjY1NzA1NzQyLDcxMDc2OTA1OV19
 -->
