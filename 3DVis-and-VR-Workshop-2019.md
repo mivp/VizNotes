@@ -16,7 +16,8 @@ Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 ## Intro:
-### Definitions: Data Visualisation - 3D visualisation - Virtual Reality
+### Definitions: Data Visualisation, 3D visualisation, Virtual Reality
+
 - Data visualisation is a broader topic with increasing relevance to all research, and ties in particularly with the increased application of data science and machine learning to research data
 - 3D visualisation is a subset of data visualisation with a long history of use in science for visualising computational research data
 - Virtual reality technology is a new way of engaging with these kinds of visual datasets for both analysis of data and outreach and communication of research data results
@@ -142,5 +143,6 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTEwNjM4OSwxODM4OTgxNzMwXX0=
+eyJoaXN0b3J5IjpbLTY0NzM5NDMwNywtOTkxMTA2Mzg5LDE4Mz
+g5ODE3MzBdfQ==
 -->
