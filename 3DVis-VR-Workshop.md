@@ -61,7 +61,7 @@ Some good reasons you might want to use 3D visuals:
  - The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations
  - For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images.
 
-
+## Virtual Reality
 
 ### Why/when to use Virtual Reality in particular?
  - Where Immersion in data and 360 view is more useful than an overview
@@ -78,7 +78,7 @@ Creating really compelling VR experiences requires more work than just getting y
 
 Run down of Oculus controllers etc ?
 
-### How to create a 3D visualisation from data (and possibly view it in a VR device):
+### What tools can create a 3D visualisation from our data (and possibly view it in a VR device):
 
 1) Use a visualisation library or tool that can create 3D plots or models - these usually create abstract plots of data or are tools designed for scientific visualisation work.
  - Libraries usually work within a given programming environment (Matlab, Python, R, Web)
@@ -94,7 +94,9 @@ Run down of Oculus controllers etc ?
 3) Develop content using a framework that supports VR such as A-Frame, Unity3D, UnrealEngine
  - This is more likely to be done by a programmer who specialises in 3D graphics but these frameworks are getting easier to learn if you are interested and have the time to get really into it! A-Frame in particular is targeted at anyone who knows some basic web programming.
 
-## What data can we use and how do we visualise it?
+## Loading 3D data into visualisation tools
+
+### What data can we use and how do we visualise it?
 
 ### 3D / 360 video content
 
@@ -138,5 +140,5 @@ These can all be combined to create more complex visualisations
 - Volume data? (TODO: No demo ready yet, perhaps use LavaVu in final version?)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzIwMDkwNiwtMzM4MjI1NzkzXX0=
+eyJoaXN0b3J5IjpbMTg5MjgzODkzOSwtMzM4MjI1NzkzXX0=
 -->
