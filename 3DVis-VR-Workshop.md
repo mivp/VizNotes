@@ -55,7 +55,7 @@ VR can be used to interrogate data spatially and find features using our inheren
 As an extension of 3D visualisation, it can further increase the impact and absorption of information into memory.  ("People recall information better through virtual reality" https://www.sciencedaily.com/releases/2018/06/180613162613.htm)
 VR environments can also be used to research how people react to simulated environments or situations (see: Psychology Researchers at King's College https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx).
 
-Creating really compelling VR experiences requires more work than just getting your data up on the screens, the interactions must be designed to work in the VR environment,.
+Creating really compelling VR experiences requires more work than just getting your data up on the screens, though. Interaction with the data must be designed to work in the VR environment.
 
 ### Equipment Overview
 - Room scale facilities : CAVE2 and other CAVE like systems - these provide an immersive VR experience in a room like environment, but are expensive to build and run and usually only available at research facilities.
@@ -79,7 +79,7 @@ Run down of Oculus controllers etc ?
 3) Develop content using a framework that supports VR such as A-Frame, Unity3D, UnrealEngine
  - This is more likely to be done by a programmer who specialises in 3D graphics but these frameworks are getting easier to learn if you are interested and have the time to get really into it! A-Frame in particular is targeted at anyone who knows some basic web programming.
 
-### What data can we use and how do we visualise it?
+## What data can we use and how do we visualise it?
 
 ### 3D / 360 video content
 
@@ -88,7 +88,7 @@ Of course there is no interactive control of the path, it's a passive experience
 
 But, if we want to view data that can be interacted with in more dimensions, to walk through, for example - then we need to create a 3D visualisation first...
 
-#### How to render a 3D scene: Turning a dataset into a 3D object
+### How to render a 3D scene: Turning a dataset into a 3D object
 
 The first step in visualising data in 3D is to translate it into a data type that can be easily rendered into a 3D scene.
 The three most widely used data types for this task are Points, Meshes and Volumes: 
@@ -115,7 +115,7 @@ There are further common data types we can plot too.
 (Lines, Shapes, Vectors (Glyphs - Arrows etc), Tracers, Text)
 These can all be combined to create more complex visualisations
 
-### DEMOS
+## Demonstrations
 [https://mivp-dws1.erc.monash.edu:3000/](https://mivp-dws1.erc.monash.edu:3000/)
 
 - Point cloud data - from spreadsheet?
@@ -136,5 +136,5 @@ Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Nzg1NDAxNCwtMzM4MjI1NzkzXX0=
+eyJoaXN0b3J5IjpbMjA5NzQzMDQ5MywtMzM4MjI1NzkzXX0=
 -->
