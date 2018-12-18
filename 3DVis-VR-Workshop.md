@@ -1,8 +1,21 @@
 
 # 3D and Virtual Reality data visualisation for researchers
-## Workshop Content
 
-### Intro:
+Target audience ? Researchers new to visualisation with limited or no programming experience. 
+
+Questions from run-through:
+
+How do I do this with my data?
+-   LavaVu : from IPython (demo?)
+-   Mushroom : from PreVis (points/mesh/volume - more detail on how to generate accepted data types, examples)
+
+Access to VR equipment? Library, MIVP, FIT @ Caulfield
+Links to software / tools / videos
+Links to example datasets
+Activity - more interaction ? 3D reconstruction in real time - apps?
+PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
+
+## Intro:
 #### Data Visualisation - 3D visualisation - Virtual Reality
 - Data visualisation is a broader topic with increasing relevance to all research, and ties in particularly with the increased application of data science and machine learning to research data
 - 3D visualisation is a subset of data visualisation with a long history of use in science for visualising computational research data
@@ -18,7 +31,7 @@ Mostly based at the Caulfield campus, they have a lot of VR equipment and resear
 
 TODO: Examples of Vis & VR projects...at Monash and elsewhere... VR in research
 
-### What is 3D visualisation?
+## What is 3D visualisation?
 
 3D vis, or scientific visualisation is a subset of Data Visualisation - the communication of data by visual means.
 I'm mostly going to talk about 3D Visualisation as this is a set of techniques that allows us to produce 3D renderings that can be used on both desktops, handhelds and virtual reality headsets.
@@ -122,19 +135,6 @@ These can all be combined to create more complex visualisations
 - Mesh model - kookaburra
 - Volume data? (TODO: No demo ready yet, perhaps use LavaVu in final version?)
 
-Questions from run-through:
-
-How do I do it with my data?
--   LavaVu : from IPython
--   Mushroom : from PreVis (points/mesh/volume)
-
-Access to VR equipment? Library, MIVP, FIT @ Caulfield
-Links to software / tools / videos
-Links to example datasets
-Define target audience ? Researchers new to visualisation with limited or no programming experience. 
-Activity - more interaction ? 3D reconstruction in real time - apps?
-PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzQzMDQ5MywtMzM4MjI1NzkzXX0=
+eyJoaXN0b3J5IjpbLTEyODgzNzEyOTMsLTMzODIyNTc5M119
 -->
