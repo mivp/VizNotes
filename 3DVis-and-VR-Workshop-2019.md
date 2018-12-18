@@ -129,10 +129,10 @@ How do I do it with my data?
 Access to VR equipment? Library, MIVP, FIT @ Caulfield
 Links to software / tools / videos
 Links to example datasets
-Define target audience ? Researchers new to visualisation with limited  
+Define target audience ? Researchers new to visualisation with limited or no programming experience. 
 Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1NzA1NzQyLDcxMDc2OTA1OV19
+eyJoaXN0b3J5IjpbLTMzODIyNTc5Myw3MTA3NjkwNTldfQ==
 -->
