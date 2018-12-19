@@ -57,13 +57,26 @@ We have the video games industry to thank for the fast acceleration and widespre
 
 We are still working with 2D images as the final output, all our displays are flat 2D planes:
  - 3D Vis requires translation to 2D Image from particular viewpoint from an infinite number of possible views and is impossible to encapsulate in a single image.
+
+(Image of 3D Projection) 
+
 This is one reason why research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods! There is increasing demand for interactive 3D in publication and it is changing: https://peerj.com/articles/355/#3Dvisualisation http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra
 (NOTE: FigShare also supports 3D models with inline WebGL viewer)
 
+(Image of 3D model in publication)
+
 One way to think about visualisations is to classify them into "realistic" and "abstract" plots.
  - In 2D the most basic realistic plot is a photograph, but also simpler cartoon style drawings, maps for example - basically, attempting to convey an image like one would expect to see with one's eyes. In 3D this type of plot attempts to construct a realistic 3D world / view and is by far the more heavily used technique.
+
+(Example images)
+
  - Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is more heavily used in 2D, but you can still do this in 3D of course, the simplest example being a scatter plot on 3 axes. Most of what people think of as data visualisation, including interactive 2D plots falls into this category.
+
+(Example images)
+
  - These two types of representation are often combined to good effect! For example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract).
+
+(Example images)
 
 In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves. Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
 
@@ -79,6 +92,7 @@ Some good reasons you might want to use 3D visuals:
 ### Why/when to use Virtual Reality in particular?
  - Where Immersion in data and 360 view is more useful than an overview
  - When interaction with visualised data/objects using VR controls would be more intuitive than point & click / keyboard / touchscreen
+
 VR can be used to interrogate data spatially and find features using our inherent ability to explore 3D spaces using visual sensory information.
 As an extension of 3D visualisation, it can further increase the impact and absorption of information into memory.  ("People recall information better through virtual reality" https://www.sciencedaily.com/releases/2018/06/180613162613.htm)
 VR environments can also be used to research how people react to simulated environments or situations (see: Psychology Researchers at King's College https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx).
@@ -87,9 +101,15 @@ Creating really compelling VR experiences requires more work than just getting y
 
 ### Equipment Overview
 - Room scale facilities : CAVE2 and other CAVE like systems - these provide an immersive VR experience in a room like environment, but are expensive to build and run and usually only available at research facilities.
+
+(Image of CAVE2)
+
 - Head mounted displays (HMD) : high end - HTC Vive, Oculus Rift, through to Google cardboard. The concept was invented a long time ago but the technology to make it work well just wasn't there until recently. Now much more accessible and very effective.
 
+(Image of HMD)
+
 Run down of Oculus controllers etc ?
+
 
 ### What tools can create a 3D visualisation from our data (and possibly view it in a VR device):
 
@@ -142,7 +162,7 @@ Think stacks of 3D images : resulting in cubes of data points on a regular grid 
  - Can plot directly via Volume Rendering - slow but often very fine quality rendering or extract surface or point data for simpler plots (slices, isosurfaces)
 
 There are further common data types we can plot too.
-(Lines, Shapes, Vectors (Glyphs - Arrows etc), Tracers, Text)
+(Lines, Shapes, Vectors [Glyphs - Arrows etc], Tracers, Text)
 These can all be combined to create more complex visualisations
 
 ## Demonstrations
@@ -155,6 +175,6 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzEzNDAsLTk5MTEwNjM4OSwxODM4OT
-gxNzMwXX0=
+eyJoaXN0b3J5IjpbLTEzMjkyMzE1ODEsMTc0NzEzNDAsLTk5MT
+EwNjM4OSwxODM4OTgxNzMwXX0=
 -->
