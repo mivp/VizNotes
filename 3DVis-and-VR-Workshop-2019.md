@@ -60,7 +60,7 @@ We are still working with 2D images as the final output, all our displays are fl
 
 (Image of 3D Projection) 
 
-This is one reason why research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods! There is increasing demand for interactive 3D in publication and it is changing: https://peerj.com/articles/355/#3Dvisualisation http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra
+This is one reason why research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing: https://peerj.com/articles/355/#3Dvisualisation http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra
 (NOTE: FigShare also supports 3D models with inline WebGL viewer)
 
 (Image of 3D model in publication)
@@ -74,7 +74,7 @@ One way to think about visualisations is to classify them into "realistic" and "
 
 (Example images)
 
- - These two types of representation are often combined to good effect! For example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract).
+ - These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract).
 
 (Example images)
 
@@ -175,6 +175,6 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkyMzE1ODEsMTc0NzEzNDAsLTk5MT
-EwNjM4OSwxODM4OTgxNzMwXX0=
+eyJoaXN0b3J5IjpbMTEyNjQwODY3OCwtMTMyOTIzMTU4MSwxNz
+Q3MTM0MCwtOTkxMTA2Mzg5LDE4Mzg5ODE3MzBdfQ==
 -->
