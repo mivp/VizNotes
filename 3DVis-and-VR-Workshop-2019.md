@@ -30,7 +30,7 @@ At the end of this workshop participant will be able to:
 4.  Gain hands-on experience using VR to interact with research data.
 
 #### Prerequisites
- - Prior skils ?
+ - Prior skills ?
  - Pre-reading ?
  - Cheatsheet ?
  - other
@@ -195,7 +195,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQxNDI5ODIsMTEyNjQwODY3OCwtMT
+eyJoaXN0b3J5IjpbLTEzNDc0MDMyNDYsMTEyNjQwODY3OCwtMT
 MyOTIzMTU4MSwxNzQ3MTM0MCwtOTkxMTA2Mzg5LDE4Mzg5ODE3
 MzBdfQ==
 -->
