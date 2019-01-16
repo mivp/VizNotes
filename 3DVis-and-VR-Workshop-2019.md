@@ -29,7 +29,7 @@ At the end of this workshop participant will be able to:
 3. Understand some 3D visualisation concepts and types of data that can be used to render 3D graphics and how these principles might be applied to their own research data.
 4.  Gain hands-on experience using VR to interact with research data.
 
-####Prerequisite
+#### Prerequisite
  - Prior skils ?
  - Pre-reading ?
  - Cheatsheet ?
@@ -195,7 +195,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNTUwMzM3LDExMjY0MDg2NzgsLTEzMj
-kyMzE1ODEsMTc0NzEzNDAsLTk5MTEwNjM4OSwxODM4OTgxNzMw
-XX0=
+eyJoaXN0b3J5IjpbLTM3NTc5ODk1MywxMTI2NDA4Njc4LC0xMz
+I5MjMxNTgxLDE3NDcxMzQwLC05OTExMDYzODksMTgzODk4MTcz
+MF19
 -->
