@@ -15,6 +15,28 @@ Links to example datasets
 Activity - more interaction ? 3D reconstruction in real time - apps?
 PreVis - demo account for wider access for anyone running workshops? (Ask Toan)
 
+#### Activity Overview
+There is growing interest in the use of virtual reality (VR) for research. The immersive spatial environment offered by VR offers new ways to gather and draw insights from research data. 
+More broadly, 3D visualisation is useful for understanding complex data, and can be used to explore and share data visualisations on mobile devices and the web. 
+This hands-on workshop will introduce participants to the equipment, software and processes involved in using 3D and VR to visualise research data. 
+Participants will also be given the opportunity to use VR to interact with research data.
+
+#### Target audience
+Researchers with an interest in learning more about 3D and VR visualisation techniques, content is aimed at an introductory level - no programming experience required. 
+
+#### Learning Outcomes
+At the end of this workshop participant will be able to:
+1. Identify how 3D visualisation and VR can potentially be used to draw insights from research data.
+2. Recognize basic hardware and software requirements to visualise research data using 3D/VR.
+3. Understand some 3D visualisation concepts and types of data that can be used to render 3D graphics and how these principles might be applied to their own research data.
+4.  Gain hands-on experience using VR to interact with research data.
+
+####Prerequisite
+ - Prior skils ?
+ - Pre-reading ?
+ - Cheatsheet ?
+ - other
+
 ## Intro:
 ### Definitions: Data Visualisation, 3D visualisation, Virtual Reality
 - Data visualisation is a broader topic with increasing relevance to all research, and ties in particularly with the increased application of data science and machine learning to research data.
@@ -175,6 +197,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjQwODY3OCwtMTMyOTIzMTU4MSwxNz
-Q3MTM0MCwtOTkxMTA2Mzg5LDE4Mzg5ODE3MzBdfQ==
+eyJoaXN0b3J5IjpbLTEwOTIzMzk4ODksMTEyNjQwODY3OCwtMT
+MyOTIzMTU4MSwxNzQ3MTM0MCwtOTkxMTA2Mzg5LDE4Mzg5ODE3
+MzBdfQ==
 -->
