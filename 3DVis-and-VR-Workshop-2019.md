@@ -1,8 +1,6 @@
 
 # 3D and Virtual Reality data visualisation for researchers
 
-Target audience ? Researchers new to visualisation with limited or no programming experience. 
-
 Questions from run-through:
 
 How do I do this with my data?
@@ -197,7 +195,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIzMzk4ODksMTEyNjQwODY3OCwtMT
-MyOTIzMTU4MSwxNzQ3MTM0MCwtOTkxMTA2Mzg5LDE4Mzg5ODE3
-MzBdfQ==
+eyJoaXN0b3J5IjpbNTIxNTUwMzM3LDExMjY0MDg2NzgsLTEzMj
+kyMzE1ODEsMTc0NzEzNDAsLTk5MTEwNjM4OSwxODM4OTgxNzMw
+XX0=
 -->
