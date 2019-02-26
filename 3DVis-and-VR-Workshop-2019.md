@@ -31,20 +31,21 @@ At the end of this workshop participant will be able to:
 
 #### Prerequisites
  - Prior skills ? None, 
- - Pre-reading : 
+ - Pre-reading : optional, see links below
  - Equipment: provided, but bring own laptop
  - 
 #### Links
-pre-reading?
+Pre-workshop reading?
  - https://medium.com/@KristianBouw/the-comprehensive-guide-to-getting-started-in-virtual-reality-c6a6419cf8cf
  - https://parameters.ssrc.org/2018/07/knowledge-in-3d-how-3d-data-visualization-is-reshaping-our-world/
  - https://serialmentor.com/dataviz/
 
-visualisations:
+Visualisations:
 - 3D network : https://bl.ocks.org/vasturiano/972ca4f3e8e074dacf14d7071aad8ef9
 - Anatomical : http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra 
+ - PreVis point cloud https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663
 
-data sources:
+Data sources:
 - Terrain (Aus) http://elevation.fsdf.org.au/
 - SkyMap: https://opensky-network.org/
 - 3D Scanning : https://www.agisoft.com/ https://play.google.com/store/search?q=3d%20scanner 
@@ -209,7 +210,8 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ1ODc1ODEsMjcxOTE0Mzc3LC0xMz
-Q3NDAzMjQ2LDExMjY0MDg2NzgsLTEzMjkyMzE1ODEsMTc0NzEz
-NDAsLTk5MTEwNjM4OSwxODM4OTgxNzMwXX0=
+eyJoaXN0b3J5IjpbLTYyODg4MDAwMCwtMTQyNDU4NzU4MSwyNz
+E5MTQzNzcsLTEzNDc0MDMyNDYsMTEyNjQwODY3OCwtMTMyOTIz
+MTU4MSwxNzQ3MTM0MCwtOTkxMTA2Mzg5LDE4Mzg5ODE3MzBdfQ
+==
 -->
