@@ -44,6 +44,11 @@ visualisations:
 - 3D network : https://bl.ocks.org/vasturiano/972ca4f3e8e074dacf14d7071aad8ef9
 - Anatomical : http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra 
 
+data sources:
+- Terrain (Aus) http://elevation.fsdf.org.au/
+- SkyMap: https://opensky-network.org/
+- 3D Scanning : https://www.agisoft.com/ https://play.google.com/store/search?q=3d%20scanner 
+
 ## Intro:
 ### Definitions: Data Visualisation, 3D visualisation, Virtual Reality
 - Data visualisation is a broader topic with increasing relevance to all research, and ties in particularly with the increased application of data science and machine learning to research data.
@@ -204,7 +209,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxOTE0Mzc3LC0xMzQ3NDAzMjQ2LDExMj
-Y0MDg2NzgsLTEzMjkyMzE1ODEsMTc0NzEzNDAsLTk5MTEwNjM4
-OSwxODM4OTgxNzMwXX0=
+eyJoaXN0b3J5IjpbLTE0MjQ1ODc1ODEsMjcxOTE0Mzc3LC0xMz
+Q3NDAzMjQ2LDExMjY0MDg2NzgsLTEzMjkyMzE1ODEsMTc0NzEz
+NDAsLTk5MTEwNjM4OSwxODM4OTgxNzMwXX0=
 -->
