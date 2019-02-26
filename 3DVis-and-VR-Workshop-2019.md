@@ -32,6 +32,8 @@ At the end of this workshop participant will be able to:
 #### Prerequisites
  - Prior skills ? None, 
  - Pre-reading : 
+
+###
  - https://medium.com/@KristianBouw/the-comprehensive-guide-to-getting-started-in-virtual-reality-c6a6419cf8cf
  - https://parameters.ssrc.org/2018/07/knowledge-in-3d-how-3d-data-visualization-is-reshaping-our-world/
  - https://serialmentor.com/dataviz/
@@ -197,7 +199,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQyMTM1NDksLTEzNDc0MDMyNDYsMT
-EyNjQwODY3OCwtMTMyOTIzMTU4MSwxNzQ3MTM0MCwtOTkxMTA2
-Mzg5LDE4Mzg5ODE3MzBdfQ==
+eyJoaXN0b3J5IjpbLTg3MzE0MjU5MiwtMTM0NzQwMzI0NiwxMT
+I2NDA4Njc4LC0xMzI5MjMxNTgxLDE3NDcxMzQwLC05OTExMDYz
+ODksMTgzODk4MTczMF19
 -->
