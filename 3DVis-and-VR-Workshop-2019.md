@@ -25,19 +25,24 @@ Researchers with an interest in learning more about 3D and VR visualisation tech
 #### Learning Outcomes
 At the end of this workshop participant will be able to:
 1. Identify how 3D visualisation and VR can potentially be used to draw insights from research data.
-2. Recognize basic hardware and software requirements to visualise research data using 3D/VR.
+2. Recognise basic hardware and software requirements to visualise research data using 3D/VR.
 3. Understand some 3D visualisation concepts and types of data that can be used to render 3D graphics and how these principles might be applied to their own research data.
 4.  Gain hands-on experience using VR to interact with research data.
 
 #### Prerequisites
  - Prior skills ? None, 
  - Pre-reading : 
-
-###
+ - Equipment: provided, but bring own laptop
+ - 
+#### Links
+pre-reading?
  - https://medium.com/@KristianBouw/the-comprehensive-guide-to-getting-started-in-virtual-reality-c6a6419cf8cf
  - https://parameters.ssrc.org/2018/07/knowledge-in-3d-how-3d-data-visualization-is-reshaping-our-world/
  - https://serialmentor.com/dataviz/
- - Equipment: provided, but bring own laptop
+
+visualisations:
+- 3D network : https://bl.ocks.org/vasturiano/972ca4f3e8e074dacf14d7071aad8ef9
+- Anatomical : http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra 
 
 ## Intro:
 ### Definitions: Data Visualisation, 3D visualisation, Virtual Reality
@@ -199,7 +204,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzE0MjU5MiwtMTM0NzQwMzI0NiwxMT
-I2NDA4Njc4LC0xMzI5MjMxNTgxLDE3NDcxMzQwLC05OTExMDYz
-ODksMTgzODk4MTczMF19
+eyJoaXN0b3J5IjpbMjcxOTE0Mzc3LC0xMzQ3NDAzMjQ2LDExMj
+Y0MDg2NzgsLTEzMjkyMzE1ODEsMTc0NzEzNDAsLTk5MTEwNjM4
+OSwxODM4OTgxNzMwXX0=
 -->
