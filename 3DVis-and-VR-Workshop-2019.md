@@ -35,16 +35,15 @@ At the end of this workshop participant will be able to:
  - Equipment: provided, but bring own laptop
  - 
 #### Links
-Pre-workshop reading?
+re-workshop reading?
  - https://medium.com/@KristianBouw/the-comprehensive-guide-to-getting-started-in-virtual-reality-c6a6419cf8cf
  - https://parameters.ssrc.org/2018/07/knowledge-in-3d-how-3d-data-visualization-is-reshaping-our-world/
- - https://serialmentor.com/dataviz/
+ - https://serialmentor.com/dataviz/ "Fundamentals of Data Visualization" 
 
-Visualisations:
+isualisations:
 - 3D network : https://bl.ocks.org/vasturiano/972ca4f3e8e074dacf14d7071aad8ef9
 - Anatomical : http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra 
  - PreVis point cloud https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663
-
 Data sources:
 - Terrain (Aus) http://elevation.fsdf.org.au/
 - SkyMap: https://opensky-network.org/
@@ -121,6 +120,11 @@ Some good reasons you might want to use 3D visuals:
  - The data is abstract and difficult to condense to 2D or comprehend with a 2D plot
  - The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations
  - For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images.
+
+### When not to use 3D?
+For example, see this chapter in "Fundamentals of Data Visualization" [https://serialmentor.com/dataviz/no-3d.html](https://serialmentor.com/dataviz/no-3d.html) which basically suggests avoiding 3D altogether.
+- If you can communicate your data clearly in a 2D plot
+- If there adding a 3rd dimension actually helps comprehend the data better
 
 ## Virtual Reality
 
@@ -210,7 +214,7 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODg4MDAwMCwtMTQyNDU4NzU4MSwyNz
+eyJoaXN0b3J5IjpbLTE5NDc0MjUzODgsLTYyODg4MDAwMCwyNz
 E5MTQzNzcsLTEzNDc0MDMyNDYsMTEyNjQwODY3OCwtMTMyOTIz
 MTU4MSwxNzQ3MTM0MCwtOTkxMTA2Mzg5LDE4Mzg5ODE3MzBdfQ
 ==
