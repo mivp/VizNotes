@@ -114,9 +114,9 @@ Research publications have been slow to adopt 3D visualisation, it does not work
 > NOTE: FigShare now supports 3D model data with an inline WebGL viewer
 
 ![Representing a 3D model in a 2D publication](https://dfzljdn9uc3pi.cloudfront.net/2014/355/1/fig-4-1x.jpg)
-One way to think about visualisations is to classify them into "realistic" and "abstract" plots.
- - In 2D the most basic realistic plot is a photograph, but also cartoon style drawings of real phenomena, maps for example - basically, attempting to convey an image like one would expect to see with one's eyes.
- - In 3D this type of plot attempts to construct a realistic 3D world / view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.
+One way to classify visualisations is into "realistic" and "abstract" plots.
+ - In 2D the most basic realistic plot is a photograph, but this also includes cartoon style drawings of real phenomena, eg: a map or a simplified line drawing highlighting some particular features. This attempts to convey data as if it was a scene one is looking at in the real world, but perhaps from an unusual viewpoint or with some data omitted or added. The map example distils real landscape features into a scaled down, top view version but is still representative of how the world looks from a birds eye view.
+ - In 3D this type of plot attempts to construct a realistic 3D view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.
 ![enter image description here](https://camo.githubusercontent.com/efcd708e51234614fac1695b863327e78270cfa9/687474703a2f2f6f77656e2e6b616c757a612e69642e61752f536c696465732f323031372d30382d31352f636f6d62696e65642e706e67)
  - Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes - but 2D techniques such as this don't always translate well! You need to think differently in 3D.
  - Most of what people think of as data visualisation, including interactive 2D plots falls into this category.
@@ -126,6 +126,8 @@ One way to think about visualisations is to classify them into "realistic" and "
  - These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract). Or using colour to represent other non-spatial information.
 
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/DChomicides.jpg/300px-DChomicides.jpg)
+*Charles Minard's famous 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path*
+![Minard Visualization](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)
 
 In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves, this helps avoid VR triggered motion sickness .
 Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
@@ -321,5 +323,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODEyMDY3OSw0NzUzMzY4MDBdfQ==
+eyJoaXN0b3J5IjpbMzgxOTcyNzgsNDc1MzM2ODAwXX0=
 -->
