@@ -287,16 +287,21 @@ These can all be combined to create more complex visualisations.
 PreVis - prototype is usable and open to public, but don't use with data you don't want others to have access to. New version coming this year with improved access control and visualisation tools.
 
 [LavaVu](https://github.com/okaluza/lavavu)
-- A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab
+- A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy?usp=sharing
 
 ## Demonstrations (VR)
 Mushroom : loading data sets imported using the Previs tools.
 - Point cloud data - from photogrammetry (3D scanning)
 - Mesh models - Kookaburra, Plain of Jars
 
-The Body VR : an example of a polished VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved with serious development time and effort
+The Body VR : an example of a VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved with serious development time and effort
 
-WebVR - try out some LavaVu output in the new WebVR standard (experimental)
+WebVR - try out some demos in the new WebVR standard (experimental)
+ - https://experiments.withgoogle.com/collection/webvr
+ - https://aframe.io/
+ - https://mixedreality.mozilla.org/mobile/
+ - https://docs.microsoft.com/en-us/microsoft-edge/webvr/demos
+ - https://accessmars.withgoogle.com/ (Currently down unfortunately while updated to WebXR, check back!)
 
 ## Follow up
 Where to access VR equipment?
@@ -316,5 +321,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MzM2ODAwXX0=
+eyJoaXN0b3J5IjpbMTA5ODEyMDY3OSw0NzUzMzY4MDBdfQ==
 -->
