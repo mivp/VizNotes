@@ -20,6 +20,7 @@
 <li></li>
 </ul>
 </li>
+<li><a href="#useful-links">Useful Links</a></li>
 <li><a href="#intro">Intro:</a></li>
 <li><a href="#why-3d-visualisation">Why 3D visualisation?</a></li>
 <li><a href="#virtual-reality">Virtual Reality</a></li>
@@ -39,7 +40,7 @@
 <h4 id="activity-overview">Activity Overview</h4>
 <p>There is growing interest in the use of virtual reality (VR) for research. The immersive spatial environment offered by VR offers new ways to gather and draw insights from research data.<br>
 More broadly, 3D visualisation is useful for understanding complex data, and can be used to explore and share data visualisations on mobile devices and the web.<br>
-This hands-on workshop will introduce participants to the equipment, software and processes involved in using 3D and VR to visualise research data.<br>
+This hands-on workshop will introduce participants to some of the equipment, software and processes involved in using 3D and VR to visualise research data.<br>
 Participants will also be given the opportunity to use VR to interact with research data.</p>
 <h4 id="target-audience">Target audience</h4>
 <p>Researchers with an interest in learning more about 3D and VR visualisation techniques, content is aimed at an introductory level - no programming experience required.</p>
@@ -53,15 +54,15 @@ Participants will also be given the opportunity to use VR to interact with resea
 </ol>
 <h4 id="prerequisites">Prerequisites</h4>
 <ul>
-<li>Prior skills ? None</li>
-<li>Pre-reading : optional, see links below</li>
-<li>Equipment: VR equipment provided, bring own laptop</li>
-<li></li>
+<li>Prior skills : none mandatory, familiarity with a programming language useful for more advanced content</li>
+<li>Pre-reading : optional, see links section below</li>
+<li>Equipment: VR equipment provided, bring own laptop so you can access materials during the workshop</li>
 </ul>
-<h4 id="links">Links</h4>
+<h2 id="useful-links">Useful Links</h2>
+<p>I am placing all the links we use throughout the workshop along with further reading and Monash resources here. (This is work in progress and will continue to be updated)</p>
 <p>Etherpad:</p>
 <ul>
-<li>Please visit this site and use for sharing notes or commentary during the workshop <a href="https://pad.carpentries.org/3dvis">https://pad.carpentries.org/3dvis</a></li>
+<li>Please visit this site and add your name to the list, we will use it for sharing notes or commentary during the workshop <a href="https://pad.carpentries.org/3dvis">https://pad.carpentries.org/3dvis</a></li>
 </ul>
 <p>Reading resources, optional:</p>
 <ul>
@@ -75,6 +76,15 @@ Participants will also be given the opportunity to use VR to interact with resea
 <li><a href="https://ialab.it.monash.edu/">https://ialab.it.monash.edu/</a></li>
 <li><a href="https://sensilab.monash.edu/">https://sensilab.monash.edu/</a></li>
 <li><a href="https://www.monash.edu/data-fluency">https://www.monash.edu/data-fluency</a></li>
+</ul>
+<p>Tools:</p>
+<ul>
+<li>Python : Anaconda <a href="https://www.anaconda.com/distribution/">https://www.anaconda.com/distribution/</a> nteract : <a href="https://nteract.io/">https://nteract.io/</a></li>
+<li>Google Colab <a href="https://colab.research.google.com">https://colab.research.google.com</a></li>
+<li>Unity3D <a href="https://unity3d.com/">https://unity3d.com/</a></li>
+<li>WebVR : <a href="https://webvr.info/">https://webvr.info/</a> A-Frame <a href="https://aframe.io/">https://aframe.io/</a></li>
+<li>LavaVu : <a href="https://github.com/okaluza/lavavu">https://github.com/okaluza/lavavu</a></li>
+<li>PreVis Prototype : <a href="https://mivp-dws1.erc.monash.edu:3000/">https://mivp-dws1.erc.monash.edu:3000/</a></li>
 </ul>
 <p>Visualisations:</p>
 <ul>
@@ -103,81 +113,121 @@ Participants will also be given the opportunity to use VR to interact with resea
 <li>Virtual reality technology is a new way of engaging with these kinds of visual datasets for both analysis of data and outreach and communication of research data results</li>
 </ul>
 <h3 id="big-data">Big Data?</h3>
-<p>Just like in industry, research data is increasing rapidly in volume, velocity and variety, first in science but now in most fields.<br>
+<p>Just like in industry, research data is increasing rapidly in volume, velocity and variety.<br>
 Many researchers now have “big data” problems.<br>
 Visualisation is one aspect of data science that can help comprehend even very large data sets.<br>
-![visualisation as aprocess](file:///home/owen/Dropbox/Projects/VizNotes/images/process.svg)</p>
+<img src="https://mivp.github.io/VizNotes/images/process.svg" alt="visualisation as aprocess"></p>
 <h3 id="at-monash">At Monash?</h3>
-<p>At the Monash Immersive Visualisation Platform (MIVP) <a href="https://www.monash.edu/researchinfrastructure/mivp">https://www.monash.edu/researchinfrastructure/mivp</a> we are more oriented to the 3D vis and scientific vis side of things, but expanding our reach.<br>
-We maintain a number of high end visualisation facilities, including VR (headset and the room-scale CAVE2).<br>
+<p>At the Monash Immersive Visualisation Platform (MIVP) <a href="https://www.monash.edu/researchinfrastructure/mivp">https://www.monash.edu/researchinfrastructure/mivp</a> we are more oriented to the 3D vis and scientific visualisation area, but constantly expanding our expertise.<br>
+We maintain a number of visualisation facilities, including VR (headset and the room-scale CAVE2).<br>
 We also provide services creating 3D visualisations for researchers, from helping to create tools to analyse data visually to generating compelling visualisations for outreach and publication.</p>
 <p><img src="https://mivp.github.io/VizNotes/images/cave2build.jpg" alt="CAVE2 at MIVP"></p>
-<p>The Faculty of IT is also heavily involved in visualisation and virtual reality, in various fields including data science research and the Human-Computer Interaction, Immersive Analytics (<a href="https://ialab.it.monash.edu/">https://ialab.it.monash.edu/</a>) and SensiLab (<a href="https://sensilab.monash.edu/">https://sensilab.monash.edu/</a>) research groups.<br>
+<p>The Faculty of IT is also heavily involved in the visualisation and virtual reality spaces, in various fields including data science research and the Human-Computer Interaction, Immersive Analytics (<a href="https://ialab.it.monash.edu/">https://ialab.it.monash.edu/</a>) and SensiLab (<a href="https://sensilab.monash.edu/">https://sensilab.monash.edu/</a>) research groups.<br>
 Mostly based at the Caulfield campus, they utilise VR equipment in research projects across IT and the Arts.</p>
-<p>TODO: Examples of Vis &amp; VR projects…at Monash and elsewhere… VR in research</p>
+<p>There are also many other independent VR projects at Monash that have engaged VR content creation studios or research software developer resources to build VR content for specific projects. Increasingly these involve the use of VR spaces as an environment for conducting research.</p>
 <h2 id="why-3d-visualisation">Why 3D visualisation?</h2>
-<p><img src="https://mivp.github.io/VizNotes/images/cephei_left.png" alt="Mu Cephei"><br>
+<p>Mu Cephei IC 1396 Nebula <em>From hubble telescope</em><br>
+<img src="https://mivp.github.io/VizNotes/images/cephei_left.png" alt="Mu Cephei"><em>Emulated 3D animation: J-P Metsävainio</em><br>
 <img src="https://mivp.github.io/VizNotes/images/cephei_right.gif" alt="Mu Cephei 3D animated"><br>
 3D vis, or scientific visualisation is a subset of Data Visualisation - the communication of data by visual means.<br>
-Here we’re interested in 3D Visualisation as this is a set of techniques that allows us to produce 3D renderings that can be used on both desktops, handhelds and virtual reality headsets.</p>
+Right now we are interested in 3D Visualisation as this is a set of techniques that allows us to produce 3D renderings that can be used on both desktops, handhelds and virtual reality headsets.</p>
 <ul>
 <li>Developed to represent 3D phenomena, eg: from instruments or simulations, with an emphasis on realistic rendering, perhaps with the addition of a time component (animation) (<a href="https://en.wikipedia.org/wiki/Scientific_visualization">https://en.wikipedia.org/wiki/Scientific_visualization</a>).  Think of recreating the experience of looking through a microscope, but for data generated by computers (simulations) or processed through computers (scanning techniques: instruments).</li>
 <li>Data Visualisation methods and tools can also be applied (plots/graphs/relational maps etc).</li>
-</ul>
-<p>(Sci-Vis image - eg, sim or volrend)</p>
-<p>Using modern graphics processing hardware we can create an illusion of a 3D world or view to examine and analyse a model.<br>
-We have the video games industry to thank for the fast acceleration and widespread availability of these techniques which used to be only possible with extremely expensive specialist computing equipment.</p>
-<p>We are still working with 2D images as the final output, all our displays are flat 2D planes:</p>
-<ul>
+<li>We are still working with 2D images as the final output, all our displays are flat 2D planes:</li>
 <li>3D Vis requires translation to 2D Image from particular viewpoint from an infinite number of possible views and is impossible to encapsulate in a single image.</li>
 </ul>
-<p>(Image of 3D Projection)</p>
-<p>This is one reason why research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing: <a href="https://peerj.com/articles/355/#3Dvisualisation">https://peerj.com/articles/355/#3Dvisualisation</a> <a href="http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra">http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra</a><br>
-(NOTE: FigShare also supports 3D models with inline WebGL viewer)</p>
-<p>(Image of 3D model in publication)</p>
-<p>One way to think about visualisations is to classify them into “realistic” and “abstract” plots.</p>
+<p><img src="https://mivp.github.io/VizNotes/images/perspective.png" alt="3D Projection"><br>
+Using modern graphics processing hardware we can create an illusion of a 3D world or view to examine and analyse a model.<br>
+We have the video games industry to thank for the fast acceleration and widespread availability of these techniques which used to be only possible with extremely expensive specialist computing equipment.</p>
+<p>These high end graphics processors are much more widespread than they used to be, but for visualising large data sets, especially in VR you’ll need better graphics capability than is available on the average laptop or mobile device.</p>
+<p><img src="https://mivp.github.io/VizNotes/images/eastcoast.png" alt="Australia East coast geology"><br>
+Research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing, eg: this article from 2014 <a href="https://peerj.com/articles/355/#3Dvisualisation">https://peerj.com/articles/355/#3Dvisualisation</a> includes an interactive WebGL model viewer, while still including multiple views in the 2D figures</p>
+<blockquote>
+<p>NOTE: FigShare now supports 3D model data with an inline WebGL viewer</p>
+</blockquote>
+<p><img src="https://dfzljdn9uc3pi.cloudfront.net/2014/355/1/fig-4-1x.jpg" alt="Representing a 3D model in a 2D publication"><br>
+One way to think about visualisations is to classify them into “realistic” and “abstract” plots.</p>
 <ul>
-<li>In 2D the most basic realistic plot is a photograph, but also simpler cartoon style drawings, maps for example - basically, attempting to convey an image like one would expect to see with one’s eyes. In 3D this type of plot attempts to construct a realistic 3D world / view and is by far the more heavily used technique.</li>
+<li>In 2D the most basic realistic plot is a photograph, but also simpler cartoon style drawings of real phenomena, maps for example - basically, attempting to convey an image like one would expect to see with one’s eyes.</li>
+<li>In 3D this type of plot attempts to construct a realistic 3D world / view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.</li>
 </ul>
 <p>(Example images)</p>
 <ul>
-<li>Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is more heavily used in 2D, but you can still do this in 3D of course, the simplest example being a scatter plot on 3 axes. Most of what people think of as data visualisation, including interactive 2D plots falls into this category.</li>
+<li>Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes. Most of what people think of as data visualisation, including interactive 2D plots falls into this category.</li>
 </ul>
 <p>(Example images)</p>
 <ul>
 <li>These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract).</li>
 </ul>
 <p>(Example images)</p>
-<p>In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves. Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.</p>
+<p>In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves.<br>
+Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.</p>
+<p><img src="https://mivp.github.io/VizNotes/images/eastcoast.png" alt="Australia East coast geology"></p>
 <h3 id="reasons-we-might-want-to-visualise-in-3d">Reasons we might want to visualise in 3D?</h3>
 <p>Some good reasons you might want to use 3D visuals:</p>
 <ul>
 <li>The data is inherently 3D (eg: 3D models, scans, geospatial data that includes the height axis)</li>
 <li>The data is abstract and difficult to condense to 2D or comprehend with a 2D plot</li>
 <li>The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations</li>
-<li>For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images.</li>
+<li>For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images, but with that in mind…</li>
 </ul>
 <h3 id="when-not-to-use-3d">When not to use 3D?</h3>
-<p>For example, see this chapter in “Fundamentals of Data Visualization” <a href="https://serialmentor.com/dataviz/no-3d.html">https://serialmentor.com/dataviz/no-3d.html</a> which basically suggests avoiding 3D altogether.</p>
+<p>Excessive use of 3D just for the sake of it is generally not a good idea, for example, see this chapter in “Fundamentals of Data Visualization” <a href="https://serialmentor.com/dataviz/no-3d.html">https://serialmentor.com/dataviz/no-3d.html</a> which points out that 3D extensions of traditional 2D plots are often very difficult to interpret correctly.</p>
 <ul>
 <li>If you can communicate your data clearly in a 2D plot</li>
 <li>If adding a 3rd dimension just provides too much visual information and complexity without adding anything</li>
 </ul>
+<p>If your purpose is the accurate communication of data, such as in publication, these reasons for avoiding 3D are more important. If you are creating a visualisation for exploring research data or experimenting with simulated environments the benefits can outweigh these downsides significantly.</p>
 <h2 id="virtual-reality">Virtual Reality</h2>
 <h3 id="whywhen-to-use-virtual-reality-in-particular">Why/when to use Virtual Reality in particular?</h3>
 <ul>
 <li>Where Immersion in data and 360 view is more useful than an overview</li>
 <li>When interaction with visualised data/objects using VR controls would be more intuitive than point &amp; click / keyboard / touchscreen</li>
+<li>Where the extra level of immersion and realism helps create a more effective environment for research, eg: observing reactions of subjects to a simulation.</li>
 </ul>
 <p>VR can be used to interrogate data spatially and find features using our inherent ability to explore 3D spaces using visual sensory information.<br>
 As an extension of 3D visualisation, it can further increase the impact and absorption of information into memory.  (“People recall information better through virtual reality” <a href="https://www.sciencedaily.com/releases/2018/06/180613162613.htm">https://www.sciencedaily.com/releases/2018/06/180613162613.htm</a>)<br>
 VR environments can also be used to research how people react to simulated environments or situations (see: Psychology Researchers at King’s College <a href="https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx">https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx</a>).</p>
-<p>Creating really compelling VR experiences requires more work than just getting your data up on the screens, though. Interaction with the data must be designed to work in the VR environment.</p>
+<p>Creating really compelling VR experiences requires more work than just getting your data up on the screens, though. Interaction with the data must be designed to work in the VR environment using VR specific controls.</p>
 <h3 id="equipment-overview">Equipment Overview</h3>
+<h4 id="types-of-vr-hardware">Types of VR hardware</h4>
+<p>What makes one VR system different to another is typically:</p>
 <ul>
-<li>Room scale facilities : CAVE2 and other CAVE like systems - these provide an immersive VR experience in a room like environment, but are expensive to build and run and usually only available at research facilities.</li>
+<li>How it displays graphics (does it turn a room into a virtual space, or simulate everything?)</li>
+<li>How it tracks your movement (an important part of virtual reality is natural movement)</li>
+<li>Where the graphics come from (does the device do the 3D heavy lifting, or does an external computer do that?)</li>
+<li>How you interact with it (does it have tangible controllers, or do you use e.g. gaze control?)</li>
+<li>If you need to wear any equipment (which can be the entire VR device!)<br>
+<img src="https://mivp.github.io/VizNotes/images/cave2.png" alt="CAVE2"><br>
+<strong>Room scale</strong></li>
+<li>Can be an entire dedicated facility, such as the CAVE2 (like we have at MIVP) and others</li>
+<li>The huge size means that it can involve massive displays, projectors or large screens</li>
+<li>Virtual experience comes naturally from being surrounded by large 3D graphics</li>
+<li>Because it’s in a fixed location (and it’s large) it can be supported by very substantial computer power</li>
+<li>Good for very detailed 3D data, and great for shared experience</li>
+<li>Can move around a little bit without having any motion tracking, and it’s still pretty convincing</li>
+<li>However, very expensive ($ millions), very substantial investment of resources to build and operate, and writing software is specialised<br>
+<img src="https://mivp.github.io/VizNotes/images/vive.png" alt="CAVE2"><br>
+<strong>Head-mounted displays</strong> (tethered, self-contained and wireless)</li>
+<li>Portable devices that mimic large spaces by putting a small screen in front of your eyes</li>
+<li>Needs to track your movement so that it feels like you’re moving around in the virtual space, and track controllers so you can interact with the virtual space smoothly</li>
+<li>Wearable nature is good and bad - comfort issues, lack of interactivity with other people</li>
+<li>Detail is limited due to processing/3D rendering power, number of pixels on the screen, lenses</li>
+<li>Some compromises for 3D quality:<br>
+Tethered systems (Oculus Rift, HTC Vive) let a desktop computer or laptop do all the 3D graphics work - good for quality, but you’re always on a leash<br>
+High quality tracking feels very natural but requires external stations to be setup in the room</li>
+<li>The newest systems (Oculus Go, HTC Quest, etc.) are self-contained, made up of essentially a mobile phone processor in a headset<br>
+No cables, lightweight, but graphics quality is limited and the system depends on batteries (battery life, heat, etc.)</li>
+<li>Wireless VR combines the two by streaming video from a desktop PC to a headset - supposedly good but expensive and requires a very powerful PC</li>
 </ul>
-<p>(Image of CAVE2)</p>
+<p><strong>Mobile head-mounted displays</strong></p>
+<ul>
+<li>Passive headsets that contain only VR optics (but no display or processor) can turn a mobile phone into a VR headset (Google Cardboard, countless no-name headsets you can buy just about anywhere)</li>
+<li>Tracking is not great - movement can be uncomfortable, phone weight/size unpredictable</li>
+<li>Some more sophisticated options exist (e.g. Gear VR, Google Daydream), but compatibility is limited to a small range of expensive phones</li>
+</ul>
+<p>AR equipment can extend from here, but that’s a big area itself which we’ll leave for another day…</p>
 <ul>
 <li>Head mounted displays (HMD) : high end - HTC Vive, Oculus Rift, through to Google cardboard. The concept was invented a long time ago but the technology to make it work well just wasn’t there until recently. Now much more accessible and very effective.</li>
 </ul>
