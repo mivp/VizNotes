@@ -52,6 +52,8 @@ Visualisations:
  - PreVis point cloud https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663
  - Global wind https://earth.nullschool.net/
  - https://store.steampowered.com/search/?developer=The%20Body%20VR%20LLC https://thebodyvr.com/anatomy-viewer/
+ - FlightPaths live demo https://drive.google.com/file/d/109ezDlOV8_Ok6ZKmscQA-fkol9Sf85tV/view?usp=sharing
+ - Laos Plain Of Jars http://mivp.github.io/VizNotes/examples/laos.html
 
 Data sources:
 - Terrain (Aus) http://www.ga.gov.au/scientific-topics/national-location-information/digital-elevation-data http://elevation.fsdf.org.au/
@@ -223,8 +225,8 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjQ5OTY1MSwtNDE0MjkyODgsLTE5ND
-c0MjUzODgsLTYyODg4MDAwMCwyNzE5MTQzNzcsLTEzNDc0MDMy
-NDYsMTEyNjQwODY3OCwtMTMyOTIzMTU4MSwxNzQ3MTM0MCwtOT
-kxMTA2Mzg5LDE4Mzg5ODE3MzBdfQ==
+eyJoaXN0b3J5IjpbMjU0MTM2NTYwLC00MTQyOTI4OCwtMTk0Nz
+QyNTM4OCwtNjI4ODgwMDAwLDI3MTkxNDM3NywtMTM0NzQwMzI0
+NiwxMTI2NDA4Njc4LC0xMzI5MjMxNTgxLDE3NDcxMzQwLC05OT
+ExMDYzODksMTgzODk4MTczMF19
 -->
