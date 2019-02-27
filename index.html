@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D-and-VR-Workshop-Final</title>
+  <title>3D-and-VR-Workshop</title>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
@@ -24,7 +24,7 @@
 <li><a href="#intro">Intro:</a></li>
 <li><a href="#why-3d-visualisation">Why 3D visualisation?</a></li>
 <li><a href="#virtual-reality">Virtual Reality</a></li>
-<li><a href="#using-previs-for-visualising-3d-data">Using Previs for visualising 3D data:</a></li>
+<li><a href="#d-input-data-for-visualisation-software">3D input data for visualisation software:</a></li>
 <li><a href="#demonstrations-3d">Demonstrations (3D)</a></li>
 <li><a href="#demonstrations-vr">Demonstrations (VR)</a></li>
 <li><a href="#follow-up">Follow up</a></li>
@@ -92,7 +92,7 @@ Participants will also be given the opportunity to use VR to interact with resea
 <li>Global wind <a href="https://earth.nullschool.net/">https://earth.nullschool.net/</a></li>
 <li>Anatomical : <a href="http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra">http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra</a></li>
 <li>Updated Kookaburra surface model <a href="http://mivp.github.io/VizNotes/examples/kookaburra.html">http://mivp.github.io/VizNotes/examples/kookaburra.html</a></li>
-<li>PreVis point cloud <a href="https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663">https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663</a></li>
+<li>PreVis Melbourne City point cloud <a href="https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663">https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663</a></li>
 <li>Inside the body VR demo <a href="https://thebodyvr.com/anatomy-viewer/">https://thebodyvr.com/anatomy-viewer/</a></li>
 <li>Demo notebooks on Google Colab <a href="https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy?usp=sharing">https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy?usp=sharing</a></li>
 <li>Laos Plain Of Jars <a href="http://mivp.github.io/VizNotes/examples/laos.html">http://mivp.github.io/VizNotes/examples/laos.html</a></li>
@@ -127,7 +127,8 @@ Mostly based at the Caulfield campus, they utilise VR equipment in research proj
 <p>There are also many other independent VR projects at Monash that have engaged VR content creation studios or research software developer resources to build VR content for specific projects. Increasingly these involve the use of VR spaces as an environment for conducting research.</p>
 <h2 id="why-3d-visualisation">Why 3D visualisation?</h2>
 <p>Mu Cephei IC 1396 Nebula <em>From hubble telescope</em><br>
-<img src="https://mivp.github.io/VizNotes/images/cephei_left.png" alt="Mu Cephei"><em>Emulated 3D animation: J-P Metsävainio</em><br>
+<img src="https://mivp.github.io/VizNotes/images/cephei_left.png" alt="Mu Cephei"><br>
+<em>Emulated 3D animation: J-P Metsävainio</em><br>
 <img src="https://mivp.github.io/VizNotes/images/cephei_right.gif" alt="Mu Cephei 3D animated"><br>
 3D vis, or scientific visualisation is a subset of Data Visualisation - the communication of data by visual means.<br>
 Right now we are interested in 3D Visualisation as this is a set of techniques that allows us to produce 3D renderings that can be used on both desktops, handhelds and virtual reality headsets.</p>
@@ -140,7 +141,7 @@ Right now we are interested in 3D Visualisation as this is a set of techniques t
 <p><img src="https://mivp.github.io/VizNotes/images/perspective.png" alt="3D Projection"><br>
 Using modern graphics processing hardware we can create an illusion of a 3D world or view to examine and analyse a model.<br>
 We have the video games industry to thank for the fast acceleration and widespread availability of these techniques which used to be only possible with extremely expensive specialist computing equipment.</p>
-<p>These high end graphics processors are much more widespread than they used to be, but for visualising large data sets, especially in VR you’ll need better graphics capability than is available on the average laptop or mobile device.</p>
+<p>These high end graphics processors are much more widespread than they used to be, but for visualising large data sets, especially in VR you will still need better graphics capability than is available on the average laptop or mobile device, ie: a high end graphics workstation.</p>
 <p><img src="https://mivp.github.io/VizNotes/images/eastcoast.png" alt="Australia East coast geology"><br>
 Research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing, eg: this article from 2014 <a href="https://peerj.com/articles/355/#3Dvisualisation">https://peerj.com/articles/355/#3Dvisualisation</a> includes an interactive WebGL model viewer, while still including multiple views in the 2D figures</p>
 <blockquote>
@@ -149,12 +150,13 @@ Research publications have been slow to adopt 3D visualisation, it does not work
 <p><img src="https://dfzljdn9uc3pi.cloudfront.net/2014/355/1/fig-4-1x.jpg" alt="Representing a 3D model in a 2D publication"><br>
 One way to think about visualisations is to classify them into “realistic” and “abstract” plots.</p>
 <ul>
-<li>In 2D the most basic realistic plot is a photograph, but also simpler cartoon style drawings of real phenomena, maps for example - basically, attempting to convey an image like one would expect to see with one’s eyes.</li>
+<li>In 2D the most basic realistic plot is a photograph, but also cartoon style drawings of real phenomena, maps for example - basically, attempting to convey an image like one would expect to see with one’s eyes.</li>
 <li>In 3D this type of plot attempts to construct a realistic 3D world / view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.</li>
 </ul>
 <p>(Example images)</p>
 <ul>
-<li>Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes. Most of what people think of as data visualisation, including interactive 2D plots falls into this category.</li>
+<li>Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes - but 2D techniques such as this don’t always translate well! You need to think differently in 3D.</li>
+<li>Most of what people think of as data visualisation, including interactive 2D plots falls into this category.</li>
 </ul>
 <p>(Example images)</p>
 <ul>
@@ -163,7 +165,6 @@ One way to think about visualisations is to classify them into “realistic” a
 <p>(Example images)</p>
 <p>In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves.<br>
 Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.</p>
-<p><img src="https://mivp.github.io/VizNotes/images/eastcoast.png" alt="Australia East coast geology"></p>
 <h3 id="reasons-we-might-want-to-visualise-in-3d">Reasons we might want to visualise in 3D?</h3>
 <p>Some good reasons you might want to use 3D visuals:</p>
 <ul>
@@ -172,6 +173,7 @@ Techniques used in 2D do not always translate well to 3D however, and VR is a ne
 <li>The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations</li>
 <li>For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images, but with that in mind…</li>
 </ul>
+<p><img src="https://mivp.github.io/VizNotes/images/eastcoast.png" alt="Australia East coast geology"></p>
 <h3 id="when-not-to-use-3d">When not to use 3D?</h3>
 <p>Excessive use of 3D just for the sake of it is generally not a good idea, for example, see this chapter in “Fundamentals of Data Visualization” <a href="https://serialmentor.com/dataviz/no-3d.html">https://serialmentor.com/dataviz/no-3d.html</a> which points out that 3D extensions of traditional 2D plots are often very difficult to interpret correctly.</p>
 <ul>
@@ -182,15 +184,15 @@ Techniques used in 2D do not always translate well to 3D however, and VR is a ne
 <h2 id="virtual-reality">Virtual Reality</h2>
 <h3 id="whywhen-to-use-virtual-reality-in-particular">Why/when to use Virtual Reality in particular?</h3>
 <ul>
-<li>Where Immersion in data and 360 view is more useful than an overview</li>
+<li>Where full immersion in data and 360 view is more useful than an overview</li>
 <li>When interaction with visualised data/objects using VR controls would be more intuitive than point &amp; click / keyboard / touchscreen</li>
 <li>Where the extra level of immersion and realism helps create a more effective environment for research, eg: observing reactions of subjects to a simulation.</li>
 </ul>
 <p>VR can be used to interrogate data spatially and find features using our inherent ability to explore 3D spaces using visual sensory information.<br>
 As an extension of 3D visualisation, it can further increase the impact and absorption of information into memory.  (“People recall information better through virtual reality” <a href="https://www.sciencedaily.com/releases/2018/06/180613162613.htm">https://www.sciencedaily.com/releases/2018/06/180613162613.htm</a>)<br>
 VR environments can also be used to research how people react to simulated environments or situations (see: Psychology Researchers at King’s College <a href="https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx">https://www.kcl.ac.uk/ioppn/depts/psychology/research/researchgroupings/vrrg/projects-at-the-virtual-reality-research-group.aspx</a>).</p>
-<p>Creating really compelling VR experiences requires more work than just getting your data up on the screens, though. Interaction with the data must be designed to work in the VR environment using VR specific controls.</p>
-<h3 id="equipment-overview">Equipment Overview</h3>
+<p>If you already have a 3D visualisation then getting it into VR is just the first step. Creating really compelling VR experiences requires more work than just getting your data up on the screens, though. Interaction with the data must be designed to work in the VR environment using VR specific controls.</p>
+<h3 id="vr-equipment-overview">VR Equipment Overview</h3>
 <h4 id="types-of-vr-hardware">Types of VR hardware</h4>
 <p>What makes one VR system different to another is typically:</p>
 <ul>
@@ -204,11 +206,11 @@ VR environments can also be used to research how people react to simulated envir
 <li>Can be an entire dedicated facility, such as the CAVE2 (like we have at MIVP) and others</li>
 <li>The huge size means that it can involve massive displays, projectors or large screens</li>
 <li>Virtual experience comes naturally from being surrounded by large 3D graphics</li>
-<li>Because it’s in a fixed location (and it’s large) it can be supported by very substantial computer power</li>
+<li>Because it’s in a fixed location (and it’s large) it can be supported by very substantial computing power</li>
 <li>Good for very detailed 3D data, and great for shared experience</li>
 <li>Can move around a little bit without having any motion tracking, and it’s still pretty convincing</li>
 <li>However, very expensive ($ millions), very substantial investment of resources to build and operate, and writing software is specialised<br>
-<img src="https://mivp.github.io/VizNotes/images/vive.png" alt="CAVE2"><br>
+<img src="https://mivp.github.io/VizNotes/images/vive.png" alt="HTC Vive"><br>
 <strong>Head-mounted displays</strong> (tethered, self-contained and wireless)</li>
 <li>Portable devices that mimic large spaces by putting a small screen in front of your eyes</li>
 <li>Needs to track your movement so that it feels like you’re moving around in the virtual space, and track controllers so you can interact with the virtual space smoothly</li>
@@ -227,37 +229,69 @@ No cables, lightweight, but graphics quality is limited and the system depends o
 <li>Tracking is not great - movement can be uncomfortable, phone weight/size unpredictable</li>
 <li>Some more sophisticated options exist (e.g. Gear VR, Google Daydream), but compatibility is limited to a small range of expensive phones</li>
 </ul>
-<p>AR equipment can extend from here, but that’s a big area itself which we’ll leave for another day…</p>
-<ul>
-<li>Head mounted displays (HMD) : high end - HTC Vive, Oculus Rift, through to Google cardboard. The concept was invented a long time ago but the technology to make it work well just wasn’t there until recently. Now much more accessible and very effective.</li>
-</ul>
-<p>(Image of HMD)</p>
-<p>Run down of Oculus controllers etc ?</p>
-<h3 id="what-tools-can-create-a-3d-visualisation-from-our-data-and-possibly-view-it-in-a-vr-device">What tools can create a 3D visualisation from our data (and possibly view it in a VR device):</h3>
+<p>AR equipment can extend from here, but that’s a big area itself which we’ll leave for another time…</p>
+<h3 id="software-what-tools-can-create-a-3d-visualisation-from-our-data">Software: What tools can create a 3D visualisation from our data:</h3>
+<h4 id="methods-requiring-programming-skills">Methods requiring programming skills:</h4>
 <ol>
 <li>Use a visualisation library or tool that can create 3D plots or models - these usually create abstract plots of data or are tools designed for scientific visualisation work.</li>
 </ol>
 <ul>
 <li>Libraries usually work within a given programming environment (Matlab, Python, R, Web)<br>
-(Matplotlib, D3, Plotly, LavaVu)</li>
-<li>Desktop applications designed for visualisation provide an all-in-one environment (ParaView, VisIt, Drishti)</li>
-<li>Currently many of these 3D plotting tools do not produce output for VR, they are for desktop or handheld device viewing only.</li>
-<li>Moving forward more visualisation libraries will support VR output directly which could make things easier. WebVR is helping with this, allowing WebGL visual output to be rendered to head mounted VR devices.</li>
+(Matplotlib, D3, Plotly, GGPlot, LavaVu)</li>
+<li>Currently many of these 3D plotting tools do not produce output for VR, they are for desktop or handheld device viewing only but this is changing.</li>
 </ul>
 <ol start="2">
-<li>Use our “Previs” web portal to upload a data set, and view it using our tools (Previs, Mushroom, LavaVu)</li>
+<li>Use a game development engine, Unity3D, UnrealEngine etc</li>
+</ol>
+<h4 id="methods-not-requiring-programming">Methods not requiring programming:</h4>
+<ol start="3">
+<li>Use a desktop tool such as scientific visualisation or 3D modeling application</li>
+</ol>
+<ul>
+<li>These are usually desktop applications designed for visualisation provide an all-in-one environment (ParaView, VisIt, Drishti)</li>
+<li>3D modeling applications such as Blender and Maya allow hand editing of 3D meshes</li>
+<li>Some of these desktop apps have built in VR support</li>
+</ul>
+<ol start="4">
+<li>Use our “Previs” web portal to upload a data set, and view it using our tools</li>
 </ol>
 <ul>
 <li>Easiest way to get started, and this is what we’ll demonstrate today in the workshop.</li>
 <li>These tools are a work in progress but are intended to make it easy to access VR techniques by researchers, by supporting common types of data that can be visualised.</li>
 </ul>
-<ol start="3">
-<li>Develop content using a framework that supports VR such as A-Frame, Unity3D, UnrealEngine</li>
-</ol>
+<hr>
+<h3 id="software-what-tools-can-turn-a-3d-visualisation-into-a-vr-experience">Software: What tools can turn a 3D visualisation into a VR experience:</h3>
 <ul>
-<li>This is more likely to be done by a programmer who specialises in 3D graphics but these frameworks are getting easier to learn if you are interested and have the time to get really into it! A-Frame in particular is targeted at anyone who knows some web programming techniques.</li>
+<li>
+<p>Moving forward more visualisation libraries like those mentioned above will support VR output directly which should make things easier. WebVR is helping with this, allowing WebGL visual output to be rendered to head mounted VR devices.</p>
+<ul>
+<li>Desktop 2D displays have widely-accepted standard software applications that view or manipulate data, VR systems don’t (yet?)</li>
 </ul>
-<h2 id="using-previs-for-visualising-3d-data">Using Previs for visualising 3D data:</h2>
+</li>
+<li>
+<p>Usually needs some application-specific software that can read your data and display in 3D for the VR device</p>
+</li>
+<li>
+<p>For a room-scale system, this can be something of a specialised field - outside of the scope of this workshop!</p>
+</li>
+<li>
+<p>Recently, games engines have become a de facto standard way of making interactive VR software<br>
+Unity3D and Unreal Engine are particularly popular and have extensive support for most mainstream HMDs, including mobile/self-contained devices<br>
+Requires moderate programming skills but possibilities are endless and there are huge programmer communities for support<br>
+However, getting large data sets into a game engine and still achieving game-like performance is a frequent challenge without a single one-size-fits-all solution</p>
+</li>
+<li>
+<p>Web development standards and libraries are starting to include VR support; this has been a slow effort but things are improving<br>
+Web developers with 3D graphics programming experience can use technologies such as WebVR to build VR apps into web browsers - open a page in a browser and a VR experience runs in your HMD!<br>
+More accessible tools such as A-Frame open up VR development to web developers who aren’t familiar with 3D libraries like OpenGL</p>
+</li>
+</ul>
+<h4 id="mivp-previs">MIVP Previs</h4>
+<ul>
+<li>As mentioned, MIVP’s ‘previs’ service creates a simple workflow for getting static 2D and 3D data into a visualisation and from there into room-scale, desktop, Web and HMD viewers<br>
+We maintain viewing software for a number of platforms, and the service takes your data and lets the viewer software access it from the device of choice, or inside the CAVE2</li>
+</ul>
+<h2 id="d-input-data-for-visualisation-software">3D input data for visualisation software:</h2>
 <h3 id="what-data-can-we-use-and-how-do-we-visualise-it">What data can we use and how do we visualise it?</h3>
 <h3 id="d--360-video-content">3D / 360 video content</h3>
 <p>The easiest way to generate VR headset content is to film using a 360 camera, if you have access to one of these you can create realistic visualisations in 3D and VR of any real location.<br>
@@ -265,54 +299,66 @@ Of course there is no interactive control of the path, it’s a passive experien
 <p>But, if we want to view data that can be interacted with in more dimensions, to walk through, for example - then we need to create a 3D visualisation first…</p>
 <h3 id="how-to-render-a-3d-scene-turning-a-dataset-into-a-3d-object">How to render a 3D scene: Turning a dataset into a 3D object</h3>
 <p>The first step in visualising data in 3D is to translate it into a data type that can be easily rendered into a 3D scene.<br>
-The three most widely used data types for this task are Points, Meshes and Volumes:</p>
-<h4 id="points">Points</h4>
-<p>The simplest kind of data to plot in 3D, require an X,Y,Z coordinate, plus some rendering parameters (size/colour/shading etc) (which can be tied to data or represent real colours)</p>
+Some data already matches nicely with one of these types, but other sources will need you to come up with a way to turn more abstract data into 3D spatial representations.</p>
+<p>The three most widely used data types for this task are Points, Meshes and Volumes. Each have different properties and uses and techniques exist to translate data between these types.</p>
+<h4 id="point">Point</h4>
+<p><img src="https://mivp.github.io/VizNotes/images/points.png" alt="Point cloud"><br>
+Fast and simple: the most basic kind of data to plot in 3D, requires an X,Y,Z coordinate, plus some rendering parameters (size/colour/shading etc) (which can be tied to further data values or represent real colours)</p>
 <ul>
 <li>LiDAR / Photogrammetry : Quick recreation of a real world scene or object from photographic footage or laser scans (AgiSoft PhotoScan, Phone based 3D scanning)</li>
 <li>Points as data points : points can be used to show elements of more abstract data types or even represent moving objects</li>
 </ul>
-<h4 id="lines">Lines</h4>
-<p>Another very simple data type, useful for linking data objects, drawing map outlines, or tracing positions</p>
-<h4 id="meshes">Meshes</h4>
-<p>Create the illusion of objects by drawing the surface only (via a connected “Mesh” of triangles)<br>
+<h4 id="mesh">Mesh</h4>
+<p><img src="https://mivp.github.io/VizNotes/images/mesh.png" alt="Triangle Mesh"><br>
+The building block of most 3D graphics : used to create the illusion of objects by drawing the surface only (via a connected “Mesh” of triangles)<br>
 Used as the basis for drawing more complex objects, from simple shapes (sphere, cube, arrow) to detailed 3D models (people, terrain, anything that has a surface)</p>
 <ul>
-<li>Created in 3D modelling applications</li>
+<li>Created in 3D modelling applications (Blender, Maya)</li>
 <li>Can be created from the real world via 3D scanning (to point cloud, then further processing to a mesh)</li>
-<li>Can be extracted from Volume data (next…)</li>
+<li>Can be extracted from Volume data (isosurface) or generated from a dense point cloud.</li>
 </ul>
-<h4 id="volumes">Volumes</h4>
-<p>Think stacks of 3D images : resulting in cubes of data points on a regular grid in 3D</p>
+<h4 id="volume">Volume</h4>
+<p><img src="https://mivp.github.io/VizNotes/images/lungs.jpg" alt="Rabbit Lungs"><br>
+Think of stacks of 2D images : resulting in cubes of data points on a regular grid in 3D</p>
 <ul>
 <li>Direct result of 3D image scans : microscopy, CT scans, MRI scans</li>
 <li>3D Simulations and numerical models</li>
 <li>Can plot directly via Volume Rendering - slow but often very fine quality rendering or extract surface or point data for simpler plots (slices, isosurfaces)</li>
 </ul>
+<h4 id="line">Line</h4>
+<p>Not as frequently used, but another common primitive data type, useful for linking data objects, drawing map outlines, or tracing positions.</p>
 <p>Other elements can be rendered, usually made up of these simple types : points, lines and/or triangle meshes.<br>
-These can all be combined to create more complex visualisations</p>
+These can all be combined to create more complex visualisations.</p>
 <h2 id="demonstrations-3d">Demonstrations (3D)</h2>
 <p><a href="https://mivp-dws1.erc.monash.edu:3000/">Previs</a><br>
-<a href="https://github.com/okaluza/lavavu">LavaVu</a></p>
+PreVis - prototype is usable and open to public, but don’t use with data you don’t want others to have access to. New version coming this year with improved access control and visualisation tools.</p>
+<p><a href="https://github.com/okaluza/lavavu">LavaVu</a></p>
 <ul>
-<li>Combining data into more complex visualisations - IPython with WebVR output via LavaVu</li>
+<li>A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab</li>
 </ul>
 <h2 id="demonstrations-vr">Demonstrations (VR)</h2>
 <p>Mushroom : loading data sets imported using the Previs tools.</p>
 <ul>
 <li>Point cloud data - from photogrammetry (3D scanning)</li>
-<li>Mesh model - kookaburra</li>
+<li>Mesh models - Kookaburra, Plain of Jars</li>
 </ul>
-<p>The Body VR : an example of a polished VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved</p>
+<p>The Body VR : an example of a polished VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved with serious development time and effort</p>
 <p>WebVR - try out some LavaVu output in the new WebVR standard (experimental)</p>
 <h2 id="follow-up">Follow up</h2>
-<p>Access to VR equipment?</p>
+<p>Where to access VR equipment?</p>
 <ul>
-<li>Library,</li>
-<li>MIVP</li>
+<li>MIVP &amp; Library</li>
 <li>FIT @ Caulfield</li>
 </ul>
-<p>PreVis - prototype usable but don’t use with data you don’t want others to have access to. Final version coming soon.</p>
+<p>Future workshops - what next? Requests? Vote on the etherpad!</p>
+<ul>
+<li>Coding: Unity3D development</li>
+<li>Coding: 3D visualisations with IPython</li>
+<li>No coding required tutorials for specific types of research data, which data?</li>
+<li>3D scanning and model creation?</li>
+<li>General data visualisation (2D plots etc)</li>
+</ul>
+<p>Contacts… see etherpad</p>
 
     </div>
   </div>
