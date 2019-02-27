@@ -109,7 +109,9 @@ We have the video games industry to thank for the fast acceleration and widespre
 These high end graphics processors are much more widespread than they used to be, but for visualising large data sets, especially in VR you will still need better graphics capability than is available on the average laptop or mobile device, ie: a high end graphics workstation.
 However, high end graphics resources are now increasingly available on cloud platforms, such as AWS, NeCTAR and Google Colab (mostly due to demand from AI research).
 
-![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)
+*Two views of geological layers beneath the east coast of Australia*
+![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast-sideview.png)
+
 Research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing, eg: this article from 2014 https://peerj.com/articles/355/#3Dvisualisation includes an interactive WebGL model viewer, while still including multiple views in the 2D figures
 > NOTE: FigShare now supports 3D model data with an inline WebGL viewer
 
@@ -289,7 +291,12 @@ These can all be combined to create more complex visualisations.
 PreVis - prototype is usable and open to public, but don't use with data you don't want others to have access to. New version coming this year with improved access control and visualisation tools.
 
 [LavaVu](https://github.com/okaluza/lavavu)
-- A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy?usp=sharing
+- A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab 
+
+If you want to try running some 3D visualisation examples on Google Colab, I have shared the folder here https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy?usp=sharing
+This is a bit of an experiment, so feel free to try it out while waiting to have a turn on the VR headsets but there may be technical issues as it hasn't been widely tested yet... basic steps are:
+ - Sign in to google, eg: with your Monash account - you must be signed in to open the examples in Colab.
+ - Open this link https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy
 
 ## Demonstrations (VR)
 Mushroom : loading data sets imported using the Previs tools.
@@ -323,5 +330,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxOTcyNzgsNDc1MzM2ODAwXX0=
+eyJoaXN0b3J5IjpbNTY4MTAzODI1LDQ3NTMzNjgwMF19
 -->
