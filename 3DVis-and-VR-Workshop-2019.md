@@ -47,7 +47,7 @@ Visualisations:
  - Global wind https://earth.nullschool.net/
 
 Data sources:
-- Terrain (Aus) http://elevation.fsdf.org.au/
+- Terrain (Aus) http://www.ga.gov.au/scientific-topics/national-location-information/digital-elevation-data http://elevation.fsdf.org.au/
 - SkyMap: https://opensky-network.org/
 - 3D Scanning : https://www.agisoft.com/ https://play.google.com/store/search?q=3d%20scanner 
 
@@ -216,8 +216,8 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDI5Mjg4LC0xOTQ3NDI1Mzg4LC02Mj
-g4ODAwMDAsMjcxOTE0Mzc3LC0xMzQ3NDAzMjQ2LDExMjY0MDg2
-NzgsLTEzMjkyMzE1ODEsMTc0NzEzNDAsLTk5MTEwNjM4OSwxOD
-M4OTgxNzMwXX0=
+eyJoaXN0b3J5IjpbLTEyMTkxNzU1OTgsLTQxNDI5Mjg4LC0xOT
+Q3NDI1Mzg4LC02Mjg4ODAwMDAsMjcxOTE0Mzc3LC0xMzQ3NDAz
+MjQ2LDExMjY0MDg2NzgsLTEzMjkyMzE1ODEsMTc0NzEzNDAsLT
+k5MTEwNjM4OSwxODM4OTgxNzMwXX0=
 -->
