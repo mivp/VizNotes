@@ -121,7 +121,7 @@ One way to think about visualisations is to classify them into "realistic" and "
  - Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes - but 2D techniques such as this don't always translate well! You need to think differently in 3D.
  - Most of what people think of as data visualisation, including interactive 2D plots falls into this category.
 
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oldfaithful3.png/320px-Oldfaithful3.png)
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oldfaithful3.png/320px-Oldfaithful3.png)![enter image description here](https://upload.wikimedia.org/wikipedia/commons/c/c4/Scatter_plot.jpg)
 
  - These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract). Or using colour to represent other non-spatial information.
 
@@ -304,6 +304,7 @@ Where to access VR equipment?
  - FIT @ Caulfield
 
 Future workshops - what next? Requests? Vote on the etherpad!
+ - More on general 3D vis techniques or concentrate on VR only?
  - Coding: Unity3D development
  - Coding: 3D visualisations with IPython
  - No coding required tutorials for specific types of research data, which data?
@@ -315,5 +316,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzc4MDQzNl19
+eyJoaXN0b3J5IjpbNDc1MzM2ODAwXX0=
 -->
