@@ -35,16 +35,23 @@ At the end of this workshop participant will be able to:
  - Equipment: provided, but bring own laptop
  - 
 #### Links
-Pre-workshop reading?
+Reading:
  - https://medium.com/@KristianBouw/the-comprehensive-guide-to-getting-started-in-virtual-reality-c6a6419cf8cf
  - https://parameters.ssrc.org/2018/07/knowledge-in-3d-how-3d-data-visualization-is-reshaping-our-world/
  - https://serialmentor.com/dataviz/ "Fundamentals of Data Visualization" 
 
+Monash:
+ - https://www.monash.edu/researchinfrastructure/mivp
+ - https://ialab.it.monash.edu/
+ - https://sensilab.monash.edu/
+ - https://www.monash.edu/data-fluency
+ 
 Visualisations:
 - 3D network : https://bl.ocks.org/vasturiano/972ca4f3e8e074dacf14d7071aad8ef9
 - Anatomical : http://cave2.github.io/websurfer/?model=examples/quayle_kookaburra 
  - PreVis point cloud https://mivp-dws1.erc.monash.edu:3000/pointviewer/?tag=335663
  - Global wind https://earth.nullschool.net/
+ - https://store.steampowered.com/search/?developer=The%20Body%20VR%20LLC https://thebodyvr.com/anatomy-viewer/
 
 Data sources:
 - Terrain (Aus) http://www.ga.gov.au/scientific-topics/national-location-information/digital-elevation-data http://elevation.fsdf.org.au/
@@ -216,8 +223,8 @@ These can all be combined to create more complex visualisations
 - Combining into more complex visualisations? - IPython with WebVR output via LavaVu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkxNzU1OTgsLTQxNDI5Mjg4LC0xOT
-Q3NDI1Mzg4LC02Mjg4ODAwMDAsMjcxOTE0Mzc3LC0xMzQ3NDAz
-MjQ2LDExMjY0MDg2NzgsLTEzMjkyMzE1ODEsMTc0NzEzNDAsLT
-k5MTEwNjM4OSwxODM4OTgxNzMwXX0=
+eyJoaXN0b3J5IjpbMTMzMjQ5OTY1MSwtNDE0MjkyODgsLTE5ND
+c0MjUzODgsLTYyODg4MDAwMCwyNzE5MTQzNzcsLTEzNDc0MDMy
+NDYsMTEyNjQwODY3OCwtMTMyOTIzMTU4MSwxNzQ3MTM0MCwtOT
+kxMTA2Mzg5LDE4Mzg5ODE3MzBdfQ==
 -->
