@@ -1,1 +1,1 @@
-3DVis-and-VR-Workshop-2019.md
+3D-and-VR-Workshop.md
