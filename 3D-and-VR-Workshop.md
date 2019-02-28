@@ -141,7 +141,9 @@ Some good reasons you might want to use 3D visuals:
  - The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations
  - For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images, but with that in mind...
 
+*Two views of geological layers beneath the east coast of Australia*
 ![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)
+![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast-sideview.png)
 ### When not to use 3D?
 Excessive use of 3D just for the sake of it is generally not a good idea, for example, see this chapter in "Fundamentals of Data Visualization" [https://serialmentor.com/dataviz/no-3d.html](https://serialmentor.com/dataviz/no-3d.html) which points out that 3D extensions of traditional 2D plots are often very difficult to interpret correctly.
 - If you can communicate your data clearly in a 2D plot
@@ -293,6 +295,7 @@ PreVis - prototype is usable and open to public, but don't use with data you don
 [LavaVu](https://github.com/okaluza/lavavu)
 - A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab 
 
+### Optional activity: IPython 3D viz on Google Colab
 If you want to try running some 3D visualisation examples in IPython on Google Colab, I have shared a couple of example IPython Notebooks using publically available data sources.
 
 Google Colab is an online interactive IPython notebook based environment intended for Machine Learning research that allow executing code on a remote machine hosted by google. These machines have high end graphics processors available so we can use them to do some 3D visualisation without having to install software on your own machine.
@@ -306,9 +309,12 @@ This is a bit of an experiment, so feel free to try it out while waiting to have
  - The notebook should open, there are a series of cells, to execute the code in a cell use SHIFT+ENTER or click on the cell press the Play icon on the left. Some of the cells will take a while to execute as they install necessary software or download files.
  - If you execute each cell in order you should be able to follow the process of building the visualisation, there's a bit of code but you don't need to understand it all to try it out!
  - Towards the end, an inline window should appear in one of the cells that you can use to control the visualisation, use the left mouse button to rotate and the right to translate. Each action is executed in the browser first with just the bounding box of the 3D scene, then the updated image is rendered remotely on google's servers using the GPU and updated in your browser... so it's a little slower to get a response than if you are running it on your own hardware, but you can access it from anywhere and no software installation is necessary!
+ - If you want to explore the application of machine learning tools to your research data this is a great place to start too.
  - The output of these visualisations can be viewed in VR but it currently takes a few more steps and needs to be run locally so we can't demo that today.
 
 ## Demonstrations (VR)
+We have 2 VR headsets between 8 attendees so until you get a turn
+
 Mushroom : loading data sets imported using the Previs tools.
 - Point cloud data - from photogrammetry (3D scanning)
 - Mesh models - Kookaburra, Plain of Jars
@@ -340,5 +346,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTM1MzU3MV19
+eyJoaXN0b3J5IjpbLTYzNTI1NDg3NiwtOTgxMzUzNTcxXX0=
 -->
