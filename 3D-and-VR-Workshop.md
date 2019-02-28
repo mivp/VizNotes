@@ -77,12 +77,15 @@ Many researchers now have "big data" problems.
 Visualisation is one aspect of data science that can help comprehend even very large data sets.
 ![visualisation as aprocess](https://mivp.github.io/VizNotes/images/process.svg)
 
+*Visualisation as a process*
+
 ### At Monash?
 At the Monash Immersive Visualisation Platform (MIVP) https://www.monash.edu/researchinfrastructure/mivp we are more oriented to the 3D vis and scientific visualisation area, but constantly expanding our expertise.
 We maintain a number of visualisation facilities, including VR (headset and the room-scale CAVE2).
 We also provide services creating 3D visualisations for researchers, from helping to create tools to analyse data visually to generating compelling visualisations for outreach and publication.
 
 ![CAVE2 at MIVP](https://mivp.github.io/VizNotes/images/cave2build.jpg)
+*The CAVE2 immersive visualisation environment at MIVP*
 
 The Faculty of IT is also heavily involved in the visualisation and virtual reality spaces, in various fields including data science research and the Human-Computer Interaction, Immersive Analytics (https://ialab.it.monash.edu/) and SensiLab (https://sensilab.monash.edu/) research groups.
 Mostly based at the Caulfield campus, they utilise VR equipment in research projects across IT and the Arts.
@@ -90,10 +93,13 @@ Mostly based at the Caulfield campus, they utilise VR equipment in research proj
 There are also many other independent VR projects at Monash that have engaged VR content creation studios or research software developer resources to build VR content for specific projects. Increasingly these involve the use of VR spaces as an environment for conducting research.
 
 ## Why 3D visualisation?
-Mu Cephei IC 1396 Nebula *From hubble telescope*
 ![Mu Cephei](https://mivp.github.io/VizNotes/images/cephei_left.png)
-*Emulated 3D animation: J-P Metsävainio*
+
+*Mu Cephei IC 1396 Nebula - from hubble telescope*
+
 ![Mu Cephei 3D animated](https://mivp.github.io/VizNotes/images/cephei_right.gif)
+*3D animation of same area of space : J-P Metsävainio*
+
 3D vis, or scientific visualisation is a subset of Data Visualisation - the communication of data by visual means.
 Right now we are interested in 3D Visualisation as this is a set of techniques that allows us to produce 3D renderings that can be used on both desktops, handhelds and virtual reality headsets.
 
@@ -103,19 +109,24 @@ Right now we are interested in 3D Visualisation as this is a set of techniques t
  - 3D Vis requires translation to 2D Image from particular viewpoint from an infinite number of possible views and is impossible to encapsulate in a single image.
 
 ![3D Projection](https://mivp.github.io/VizNotes/images/perspective.png)
+*Projecting a 3D scene to a 2D plane - image : wikipedia*
+
 Using modern graphics processing hardware we can create an illusion of a 3D world or view to examine and analyse a model.
 We have the video games industry to thank for the fast acceleration and widespread availability of these techniques which used to be only possible with extremely expensive specialist computing equipment.
 
 These high end graphics processors are much more widespread than they used to be, but for visualising large data sets, especially in VR you will still need better graphics capability than is available on the average laptop or mobile device, ie: a high end graphics workstation.
 However, high end graphics resources are now increasingly available on cloud platforms, such as AWS, NeCTAR and Google Colab (mostly due to demand from AI research).
 
-*Two views of geological layers beneath the east coast of Australia*
+
 ![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast-sideview.png)
+*Two views of geological layers beneath the east coast of Australia*
 
 Research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing, eg: this article from 2014 https://peerj.com/articles/355/#3Dvisualisation includes an interactive WebGL model viewer, while still including multiple views in the 2D figures
 > NOTE: FigShare now supports 3D model data with an inline WebGL viewer
 
 ![Representing a 3D model in a 2D publication](https://dfzljdn9uc3pi.cloudfront.net/2014/355/1/fig-4-1x.jpg)
+*Representing a 3D model in a 2D publication - image: https://peerj.com/articles/355/*
+
 One way to classify visualisations is into "realistic" and "abstract" plots.
  - In 2D the most basic realistic plot is a photograph, but this also includes cartoon style drawings of real phenomena, eg: a map or a simplified line drawing highlighting some particular features. This attempts to convey data as if it was a scene one is looking at in the real world, but perhaps from an unusual viewpoint or with some data omitted or added. The map example distils real landscape features into a scaled down, top view version but is still representative of how the world looks from a birds eye view.
  - In 3D this type of plot attempts to construct a realistic 3D view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.
@@ -123,12 +134,13 @@ One way to classify visualisations is into "realistic" and "abstract" plots.
  - Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes - but 2D techniques such as this don't always translate well! You need to think differently in 3D.
  - Most of what people think of as data visualisation, including interactive 2D plots falls into this category.
 
+*Example abstract data plots / charts - images: wikipedia*
 ![enter image description here](https://mivp.github.io/VizNotes/images/oldfaithful.png)![enter image description here](https://mivp.github.io/VizNotes/images/scatter3d.jpg)
 
  - These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract). Or using colour to represent other non-spatial information.
-
+*Homicide in Washington DC, plotting data on a map - image: wikipedia*
 ![enter image description here](https://mivp.github.io/VizNotes/images/homicides.jpg)
-*Charles Minard's famous 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path*
+*Charles Minard's famous 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path - images source : wikipedia*
 ![Minard Visualization](https://mivp.github.io/VizNotes/images/minard.png)
 
 In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves, this helps avoid VR triggered motion sickness .
@@ -266,6 +278,7 @@ The three most widely used data types for this task are Points, Meshes and Volum
 Fast and simple: the most basic kind of data to plot in 3D, requires an X,Y,Z coordinate, plus some rendering parameters (size/colour/shading etc) (which can be tied to further data values or represent real colours)
  - LiDAR / Photogrammetry : Quick recreation of a real world scene or object from photographic footage or laser scans (AgiSoft PhotoScan, Phone based 3D scanning)
  - Points as data points : points can be used to show elements of more abstract data types or even represent moving objects
+ - Common file formats : LAS, LAZ, OBJ, PLY etc
 
 #### Mesh
 ![Triangle Mesh](https://mivp.github.io/VizNotes/images/mesh.png)
@@ -274,6 +287,7 @@ Used as the basis for drawing more complex objects, from simple shapes (sphere, 
  - Created in 3D modelling applications (Blender, Maya)
  - Can be created from the real world via 3D scanning (to point cloud, then further processing to a mesh)
  - Can be extracted from Volume data (isosurface) or generated from a dense point cloud.
+ - Common file formats : OBJ, PLY, STL, FBX etc
 
 #### Volume
 ![Rabbit Lungs](https://mivp.github.io/VizNotes/images/lungs.jpg)
@@ -281,6 +295,7 @@ Think of stacks of 2D images : resulting in cubes of data points on a regular gr
  - Direct result of 3D image scans : microscopy, CT scans, MRI scans
  - 3D Simulations and numerical models
  - Can plot directly via Volume Rendering - slow but often very fine quality rendering or extract surface or point data for simpler plots (slices, isosurfaces)
+ - Common file formats : DICOM, TIFF, PNG, RAW
 
 #### Line
 Not as frequently used, but another common primitive data type, useful for linking data objects, drawing map outlines, or tracing positions.
@@ -290,7 +305,7 @@ These can all be combined to create more complex visualisations.
 
 ## Demonstrations (3D)
 [Previs](https://mivp-dws1.erc.monash.edu:3000/)
-PreVis - prototype is usable and open to public, but don't use with data you don't want others to have access to. New version coming this year with improved access control and visualisation tools.
+ - PreVis - a tool under development by MIVP for quickly turning some common data types into 3D visualisations. The prototype is usable and open to public, but don't use it with data you don't want others to have access to. New version coming this year with improved access control and visualisation tools.
 
 [LavaVu](https://github.com/okaluza/lavavu)
 - A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab 
@@ -313,7 +328,8 @@ This is a bit of an experiment, so feel free to try it out while waiting to have
  - The output of these visualisations can be viewed in VR but it currently takes a few more steps and needs to be run locally so we can't demo that today.
 
 ## Demonstrations (VR)
-We have 2 VR headsets between 8 attendees so until you get a turn you'll have some free time to:
+We have 2 VR headsets between 8 attendees so there should be enough time for 10-15 minutes of usage each.
+Before or after you get a turn you'll have some free time to:
  - try out the Google Colab examples above
  - explore some of the WebVR demos available that you might want to try out when you are using the headset (some links below, or just try searching for "WebVR demo") - if you find something you want to try, paste the link into the etherpad https://pad.carpentries.org/3dvis so we can find it easily on the demo machines.
 
@@ -348,5 +364,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQyODg3NTUsLTk4MTM1MzU3MV19
+eyJoaXN0b3J5IjpbNzQ1OTQ2NzA3LC05ODEzNTM1NzFdfQ==
 -->
