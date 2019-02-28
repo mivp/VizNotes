@@ -123,13 +123,13 @@ One way to classify visualisations is into "realistic" and "abstract" plots.
  - Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes - but 2D techniques such as this don't always translate well! You need to think differently in 3D.
  - Most of what people think of as data visualisation, including interactive 2D plots falls into this category.
 
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oldfaithful3.png/320px-Oldfaithful3.png)![enter image description here](https://upload.wikimedia.org/wikipedia/commons/c/c4/Scatter_plot.jpg)
+![enter image description here](https://mivp.github.io/VizNotes/images/oldfaithful.png)![enter image description here](https://mivp.github.io/VizNotes/images/scatter3d.jpg)
 
  - These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract). Or using colour to represent other non-spatial information.
 
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/DChomicides.jpg/300px-DChomicides.jpg)
+![enter image description here](https://mivp.github.io/VizNotes/images/homicides.jpg)
 *Charles Minard's famous 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path*
-![Minard Visualization](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)
+![Minard Visualization](https://mivp.github.io/VizNotes/images/minard.png)
 
 In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves, this helps avoid VR triggered motion sickness .
 Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
@@ -306,7 +306,7 @@ This is a bit of an experiment, so feel free to try it out while waiting to have
  - The notebook should open, there are a series of cells, to execute the code in a cell use SHIFT+ENTER or click on the cell press the Play icon on the left. Some of the cells will take a while to execute as they install necessary software or download files.
  - If you execute each cell in order you should be able to follow the process of building the visualisation, there's a bit of code but you don't need to understand it all to try it out!
  - Towards the end, an inline window should appear in one of the cells that you can use to control the visualisation, use the left mouse button to rotate and the right to translate. Each action is executed in the browser first with just the bounding box of the 3D scene, then the updated image is rendered remotely on google's servers using the GPU and updated in your browser... so it's a little slower to get a response than if you are running it on your own hardware, but you can access it from anywhere and no software installation is necessary!
- - The output of these visualisations can be viewed in VR in the CAVE2 and 
+ - The output of these visualisations can be viewed in VR but it currently takes a few more steps and needs to be run locally so we can't demo that today.
 
 ## Demonstrations (VR)
 Mushroom : loading data sets imported using the Previs tools.
@@ -340,5 +340,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjU2OTY5MCw0NzUzMzY4MDBdfQ==
+eyJoaXN0b3J5IjpbLTk4MTM1MzU3MV19
 -->
