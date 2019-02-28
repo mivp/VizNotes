@@ -293,10 +293,20 @@ PreVis - prototype is usable and open to public, but don't use with data you don
 [LavaVu](https://github.com/okaluza/lavavu)
 - A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab 
 
-If you want to try running some 3D visualisation examples on Google Colab, I have shared the folder here https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy?usp=sharing
+If you want to try running some 3D visualisation examples in IPython on Google Colab, I have shared a couple of example IPython Notebooks using publically available data sources.
+
+Google Colab is an online interactive IPython notebook based environment intended for Machine Learning research that allow executing code on a remote machine hosted by google. These machines have high end graphics processors available so we can use them to do some 3D visualisation without having to install software on your own machine.
+
 This is a bit of an experiment, so feel free to try it out while waiting to have a turn on the VR headsets but there may be technical issues as it hasn't been widely tested yet... basic steps are:
+
  - Sign in to google, eg: with your Monash account - you must be signed in to open the examples in Colab.
  - Open this link https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy
+ - Choose one of the example notebooks, FlightPaths or SurfaceModels, double-click to open
+ - Select "Open with Colaboratory" at the top of the screen
+ - The notebook should open, there are a series of cells, to execute the code in a cell use SHIFT+ENTER or click on the cell press the Play icon on the left. Some of the cells will take a while to execute as they install necessary software or download files.
+ - If you execute each cell in order you should be able to follow the process of building the visualisation, there's a bit of code but you don't need to understand it all to try it out!
+ - Towards the end, an inline window should appear in one of the cells that you can use to control the visualisation, use the left mouse button to rotate and the right to translate. Each action is executed in the browser first with just the bounding box of the 3D scene, then the updated image is rendered remotely on google's servers using the GPU and updated in your browser... so it's a little slower to get a response than if you are running it on your own hardware, but you can access it from anywhere and no software installation is necessary!
+ - The output of these visualisations can be viewed in VR in the CAVE2 and 
 
 ## Demonstrations (VR)
 Mushroom : loading data sets imported using the Previs tools.
@@ -330,5 +340,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MTAzODI1LDQ3NTMzNjgwMF19
+eyJoaXN0b3J5IjpbLTQxMjU2OTY5MCw0NzUzMzY4MDBdfQ==
 -->
