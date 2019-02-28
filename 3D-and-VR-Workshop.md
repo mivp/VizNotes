@@ -115,10 +115,6 @@ We have the video games industry to thank for the fast acceleration and widespre
 These high end graphics processors are much more widespread than they used to be, but for visualising large data sets, especially in VR you will still need better graphics capability than is available on the average laptop or mobile device, ie: a high end graphics workstation.
 However, high end graphics resources are now increasingly available on cloud platforms, such as AWS, NeCTAR and Google Colab (mostly due to demand from AI research).
 
-
-![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast-sideview.png)
-*Two views of geological layers beneath the east coast of Australia*
-
 Research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing, eg: this article from 2014 https://peerj.com/articles/355/#3Dvisualisation includes an interactive WebGL model viewer, while still including multiple views in the 2D figures
 > NOTE: FigShare now supports 3D model data with an inline WebGL viewer
 
@@ -156,9 +152,9 @@ Some good reasons you might want to use 3D visuals:
  - The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations
  - For outreach / increased impact, fun : we often simply find 3D visualisations more compelling than flat 2D images, but keeping that in mind...
 
+![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast-sideview.png)
 *Two views of geological layers beneath the east coast of Australia*
-![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)
-![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast-sideview.png)
+
 ### When not to use 3D?
 Excessive use of 3D just for the sake of it is generally not a good idea, for example, see this chapter in "Fundamentals of Data Visualization" [https://serialmentor.com/dataviz/no-3d.html](https://serialmentor.com/dataviz/no-3d.html) which points out that 3D extensions of traditional 2D plots are often very difficult to interpret correctly.
 - If you can communicate your data clearly in a 2D plot
@@ -367,5 +363,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1MjgxNDY5XX0=
+eyJoaXN0b3J5IjpbMTEzNjEzODIwOSw5NDUyODE0NjldfQ==
 -->
