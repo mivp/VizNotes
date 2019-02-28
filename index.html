@@ -143,25 +143,28 @@ Using modern graphics processing hardware we can create an illusion of a 3D worl
 We have the video games industry to thank for the fast acceleration and widespread availability of these techniques which used to be only possible with extremely expensive specialist computing equipment.</p>
 <p>These high end graphics processors are much more widespread than they used to be, but for visualising large data sets, especially in VR you will still need better graphics capability than is available on the average laptop or mobile device, ie: a high end graphics workstation.<br>
 However, high end graphics resources are now increasingly available on cloud platforms, such as AWS, NeCTAR and Google Colab (mostly due to demand from AI research).</p>
-<p><img src="https://mivp.github.io/VizNotes/images/eastcoast.png" alt="Australia East coast geology"><br>
-Research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing, eg: this article from 2014 <a href="https://peerj.com/articles/355/#3Dvisualisation">https://peerj.com/articles/355/#3Dvisualisation</a> includes an interactive WebGL model viewer, while still including multiple views in the 2D figures</p>
+<p><em>Two views of geological layers beneath the east coast of Australia</em><br>
+<img src="https://mivp.github.io/VizNotes/images/eastcoast.png" alt="Australia East coast geology"><img src="https://mivp.github.io/VizNotes/images/eastcoast-sideview.png" alt="Australia East coast geology"></p>
+<p>Research publications have been slow to adopt 3D visualisation, it does not work with traditional publication methods. There is increasing demand for interactive 3D in publication and it is changing, eg: this article from 2014 <a href="https://peerj.com/articles/355/#3Dvisualisation">https://peerj.com/articles/355/#3Dvisualisation</a> includes an interactive WebGL model viewer, while still including multiple views in the 2D figures</p>
 <blockquote>
 <p>NOTE: FigShare now supports 3D model data with an inline WebGL viewer</p>
 </blockquote>
 <p><img src="https://dfzljdn9uc3pi.cloudfront.net/2014/355/1/fig-4-1x.jpg" alt="Representing a 3D model in a 2D publication"><br>
-One way to think about visualisations is to classify them into “realistic” and “abstract” plots.</p>
+One way to classify visualisations is into “realistic” and “abstract” plots.</p>
 <ul>
-<li>In 2D the most basic realistic plot is a photograph, but also cartoon style drawings of real phenomena, maps for example - basically, attempting to convey an image like one would expect to see with one’s eyes.</li>
-<li>In 3D this type of plot attempts to construct a realistic 3D world / view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.<br>
+<li>In 2D the most basic realistic plot is a photograph, but this also includes cartoon style drawings of real phenomena, eg: a map or a simplified line drawing highlighting some particular features. This attempts to convey data as if it was a scene one is looking at in the real world, but perhaps from an unusual viewpoint or with some data omitted or added. The map example distils real landscape features into a scaled down, top view version but is still representative of how the world looks from a birds eye view.</li>
+<li>In 3D this type of plot attempts to construct a realistic 3D view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.<br>
 <img src="https://camo.githubusercontent.com/efcd708e51234614fac1695b863327e78270cfa9/687474703a2f2f6f77656e2e6b616c757a612e69642e61752f536c696465732f323031372d30382d31352f636f6d62696e65642e706e67" alt="enter image description here"></li>
 <li>Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes - but 2D techniques such as this don’t always translate well! You need to think differently in 3D.</li>
 <li>Most of what people think of as data visualisation, including interactive 2D plots falls into this category.</li>
 </ul>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oldfaithful3.png/320px-Oldfaithful3.png" alt="enter image description here"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Scatter_plot.jpg" alt="enter image description here"></p>
+<p><img src="https://mivp.github.io/VizNotes/images/oldfaithful.png" alt="enter image description here"><img src="https://mivp.github.io/VizNotes/images/scatter3d.jpg" alt="enter image description here"></p>
 <ul>
 <li>These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract). Or using colour to represent other non-spatial information.</li>
 </ul>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/DChomicides.jpg/300px-DChomicides.jpg" alt="enter image description here"></p>
+<p><img src="https://mivp.github.io/VizNotes/images/homicides.jpg" alt="enter image description here"><br>
+<em>Charles Minard’s famous 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path</em><br>
+<img src="https://mivp.github.io/VizNotes/images/minard.png" alt="Minard Visualization"></p>
 <p>In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves, this helps avoid VR triggered motion sickness .<br>
 Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.</p>
 <h3 id="reasons-we-might-want-to-visualise-in-3d">Reasons we might want to visualise in 3D?</h3>
@@ -335,14 +338,34 @@ PreVis - prototype is usable and open to public, but don’t use with data you d
 <ul>
 <li>A pathway from python and IPython to 3D visualisation and VR, allows combining data into more complex visualisations - see example : IPython interactive 3D output via LavaVu running on Google Colab</li>
 </ul>
+<p>If you want to try running some 3D visualisation examples in IPython on Google Colab, I have shared a couple of example IPython Notebooks using publically available data sources.</p>
+<p>Google Colab is an online interactive IPython notebook based environment intended for Machine Learning research that allow executing code on a remote machine hosted by google. These machines have high end graphics processors available so we can use them to do some 3D visualisation without having to install software on your own machine.</p>
+<p>This is a bit of an experiment, so feel free to try it out while waiting to have a turn on the VR headsets but there may be technical issues as it hasn’t been widely tested yet… basic steps are:</p>
+<ul>
+<li>Sign in to google, eg: with your Monash account - you must be signed in to open the examples in Colab.</li>
+<li>Open this link <a href="https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy">https://drive.google.com/drive/folders/1V6cAZke7_wRLYlZbPkI9a5IB-mxe-GEy</a></li>
+<li>Choose one of the example notebooks, FlightPaths or SurfaceModels, double-click to open</li>
+<li>Select “Open with Colaboratory” at the top of the screen</li>
+<li>The notebook should open, there are a series of cells, to execute the code in a cell use SHIFT+ENTER or click on the cell press the Play icon on the left. Some of the cells will take a while to execute as they install necessary software or download files.</li>
+<li>If you execute each cell in order you should be able to follow the process of building the visualisation, there’s a bit of code but you don’t need to understand it all to try it out!</li>
+<li>Towards the end, an inline window should appear in one of the cells that you can use to control the visualisation, use the left mouse button to rotate and the right to translate. Each action is executed in the browser first with just the bounding box of the 3D scene, then the updated image is rendered remotely on google’s servers using the GPU and updated in your browser… so it’s a little slower to get a response than if you are running it on your own hardware, but you can access it from anywhere and no software installation is necessary!</li>
+<li>The output of these visualisations can be viewed in VR but it currently takes a few more steps and needs to be run locally so we can’t demo that today.</li>
+</ul>
 <h2 id="demonstrations-vr">Demonstrations (VR)</h2>
 <p>Mushroom : loading data sets imported using the Previs tools.</p>
 <ul>
 <li>Point cloud data - from photogrammetry (3D scanning)</li>
 <li>Mesh models - Kookaburra, Plain of Jars</li>
 </ul>
-<p>The Body VR : an example of a polished VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved with serious development time and effort</p>
-<p>WebVR - try out some LavaVu output in the new WebVR standard (experimental)</p>
+<p>The Body VR : an example of a VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved with serious development time and effort</p>
+<p>WebVR - try out some demos in the new WebVR standard (experimental)</p>
+<ul>
+<li><a href="https://experiments.withgoogle.com/collection/webvr">https://experiments.withgoogle.com/collection/webvr</a></li>
+<li><a href="https://aframe.io/">https://aframe.io/</a></li>
+<li><a href="https://mixedreality.mozilla.org/mobile/">https://mixedreality.mozilla.org/mobile/</a></li>
+<li><a href="https://docs.microsoft.com/en-us/microsoft-edge/webvr/demos">https://docs.microsoft.com/en-us/microsoft-edge/webvr/demos</a></li>
+<li><a href="https://accessmars.withgoogle.com/">https://accessmars.withgoogle.com/</a> (Currently down unfortunately while updated to WebXR, check back!)</li>
+</ul>
 <h2 id="follow-up">Follow up</h2>
 <p>Where to access VR equipment?</p>
 <ul>
