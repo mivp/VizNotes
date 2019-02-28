@@ -77,8 +77,6 @@ Many researchers now have "big data" problems.
 Visualisation is one aspect of data science that can help comprehend even very large data sets.
 ![visualisation as aprocess](https://mivp.github.io/VizNotes/images/process.svg)
 
-*Visualisation as a process*
-
 ### At Monash?
 At the Monash Immersive Visualisation Platform (MIVP) https://www.monash.edu/researchinfrastructure/mivp we are more oriented to the 3D vis and scientific visualisation area, but constantly expanding our expertise.
 We maintain a number of visualisation facilities, including VR (headset and the room-scale CAVE2).
@@ -131,27 +129,32 @@ One way to classify visualisations is into "realistic" and "abstract" plots.
  - In 2D the most basic realistic plot is a photograph, but this also includes cartoon style drawings of real phenomena, eg: a map or a simplified line drawing highlighting some particular features. This attempts to convey data as if it was a scene one is looking at in the real world, but perhaps from an unusual viewpoint or with some data omitted or added. The map example distils real landscape features into a scaled down, top view version but is still representative of how the world looks from a birds eye view.
  - In 3D this type of plot attempts to construct a realistic 3D view and is the more common technique, with a clearer mapping between the artificial 3D world and a concept in the real world.
 ![enter image description here](https://camo.githubusercontent.com/efcd708e51234614fac1695b863327e78270cfa9/687474703a2f2f6f77656e2e6b616c757a612e69642e61752f536c696465732f323031372d30382d31352f636f6d62696e65642e706e67)
+*Some example 3D plots we can classify as 'realistic'*
+
  - Abstract: graphs etc provide heavily stylised ways of representing data, by plotting on a set of axes or with links to relate data elements or groups to each other, these use familiar shapes and concepts to generate a mental model of the data without attempting to represent it in a visually realistic way. This is very heavily used in 2D, but you can still do this in 3D, the simplest example being a scatter plot on 3 axes - but 2D techniques such as this don't always translate well! You need to think differently in 3D.
  - Most of what people think of as data visualisation, including interactive 2D plots falls into this category.
 
-*Example abstract data plots / charts - images: wikipedia*
 ![enter image description here](https://mivp.github.io/VizNotes/images/oldfaithful.png)![enter image description here](https://mivp.github.io/VizNotes/images/scatter3d.jpg)
+*Example plots and charts that fall into the 'abstract' class - images: wikipedia*
 
  - These two types of representation are often combined to good effect - for example, plotting cities as circles on a map (a realistic spatial visualisation) by representing the population with the size of the circle (abstract). Or using colour to represent other non-spatial information.
-*Homicide in Washington DC, plotting data on a map - image: wikipedia*
-![enter image description here](https://mivp.github.io/VizNotes/images/homicides.jpg)
-*Charles Minard's famous 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path - images source : wikipedia*
-![Minard Visualization](https://mivp.github.io/VizNotes/images/minard.png)
 
-In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves, this helps avoid VR triggered motion sickness .
-Techniques used in 2D do not always translate well to 3D however, and VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
+![enter image description here](https://mivp.github.io/VizNotes/images/homicides.jpg)
+
+*Homicide in Washington DC, plotting data on a map - image: wikipedia*
+
+![Minard Visualization](https://mivp.github.io/VizNotes/images/minard.png)
+*Charles Minard's famous 1869 chart showing the number of men in Napoleon’s 1812 Russian campaign army, their movements, as well as the temperature they encountered on the return path - images source : wikipedia*
+
+In 3D, especially VR you usually want to create at least a baseline of a real world environment to plot your abstract data, such as a room or even just a ground plane, so people viewing can orient themselves, this helps avoid VR motion sickness.
+Techniques used in 2D do not always translate well to 3D, however. VR is a new paradigm, so think creatively about how you want to work with your data in VR, sticking to methods designed for output to 2D will be limiting.
 
 ### Reasons we might want to visualise in 3D?
 Some good reasons you might want to use 3D visuals:
  - The data is inherently 3D (eg: 3D models, scans, geospatial data that includes the height axis)
  - The data is abstract and difficult to condense to 2D or comprehend with a 2D plot
  - The data can be mapped to an inherently 3D dataset, eg: can be plotted on a geospatial 3d dataset to map to locations
- - For fun / outreach / increased impact : humans find 3D visualisations more compelling than flat 2D images, but with that in mind...
+ - For outreach / increased impact, fun : we often simply find 3D visualisations more compelling than flat 2D images, but keeping that in mind...
 
 *Two views of geological layers beneath the east coast of Australia*
 ![Australia East coast geology](https://mivp.github.io/VizNotes/images/eastcoast.png)
@@ -161,7 +164,7 @@ Excessive use of 3D just for the sake of it is generally not a good idea, for ex
 - If you can communicate your data clearly in a 2D plot
 - If adding a 3rd dimension just provides too much visual information and complexity without adding anything
 
-If your purpose is the accurate communication of data, such as in publication, these reasons for avoiding 3D are more important. If you are creating a visualisation for exploring research data or experimenting with simulated environments the benefits can outweigh these downsides significantly.
+If your purpose is the highly accurate and objective communication of data, such as in a scientific publication, these reasons for avoiding 3D are more important. If you are creating a visualisation for exploring research data or experimenting with simulated environments the benefits can outweigh these downsides significantly.
 
 ## Virtual Reality
 
@@ -364,5 +367,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1OTQ2NzA3LC05ODEzNTM1NzFdfQ==
+eyJoaXN0b3J5IjpbOTQ1MjgxNDY5XX0=
 -->
