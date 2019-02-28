@@ -313,15 +313,17 @@ This is a bit of an experiment, so feel free to try it out while waiting to have
  - The output of these visualisations can be viewed in VR but it currently takes a few more steps and needs to be run locally so we can't demo that today.
 
 ## Demonstrations (VR)
-We have 2 VR headsets between 8 attendees so until you get a turn
+We have 2 VR headsets between 8 attendees so until you get a turn you'll have some free time to:
+ - try out the Google Colab examples above
+ - explore some of the WebVR demos available that you might want to try out when you are using the headset (some links below, or just try searching for "WebVR demo") - if you find something you want to try, paste the link into the etherpad https://pad.carpentries.org/3dvis so we can find it easily on the demo machines.
 
 Mushroom : loading data sets imported using the Previs tools.
 - Point cloud data - from photogrammetry (3D scanning)
 - Mesh models - Kookaburra, Plain of Jars
 
-The Body VR : an example of a VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved with serious development time and effort
+The Body VR : an example of a VR experience with high production values, beyond what we are introducing here but a great example of what can be achieved with serious development time and effort. This is a free app on Steam.
 
-WebVR - try out some demos in the new WebVR standard (experimental)
+WebVR - try out some demos with this new web based standard for VR content (experimental)
  - https://experiments.withgoogle.com/collection/webvr
  - https://aframe.io/
  - https://mixedreality.mozilla.org/mobile/
@@ -346,5 +348,5 @@ Contacts... see etherpad
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTI1NDg3NiwtOTgxMzUzNTcxXX0=
+eyJoaXN0b3J5IjpbLTE2MzQyODg3NTUsLTk4MTM1MzU3MV19
 -->
